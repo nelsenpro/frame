@@ -1,5 +1,5 @@
 # Frame-CSS
-**Frame-CSS** : ***Framework SS Indonesia***
+**Frame-CSS** : _Framework SS Indonesia_
 | Nama | Deskripsi |
 | --- | --- |
 | Versi | 1.1.23 | 
