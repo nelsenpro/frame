@@ -6,7 +6,7 @@ Frame-CSS : _Framework SS Indonesia_
 | Lisensi | GNU GPL 3 |
 
 # Langkah Cepat
-- unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](www.github.com)
+- unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](https://github.com/nelsenpro/Frame-CSS)
 - buat file index.html
 - konfigurasi 
 ```
