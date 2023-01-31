@@ -4,7 +4,15 @@ Frame-CSS : Framework CSS Indonesia
 | --- | --- |
 | Versi | 1.1.23 | 
 | Lisensi | GNU GPL 3 |
-## proyek untuk umum dan open source
+
+# Langkah Cepat
+- unduh file FrameCSS [https://google.drive.com]
+- buat file index.html
+- konfigurasi 
+'''
+html
+'''
+
 <!-- Text -->
 #### sedang dibangun, akan dipublikasikan Maret/April 2023
 # info: kontribusi 
