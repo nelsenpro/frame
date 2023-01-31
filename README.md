@@ -6,12 +6,12 @@ Frame-CSS : Framework CSS Indonesia
 | Lisensi | GNU GPL 3 |
 
 # Langkah Cepat
-- unduh file FrameCSS [https://google.drive.com]
+- unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](www.github.com)
 - buat file index.html
 - konfigurasi 
-'''
+```
 html
-'''
+```
 
 <!-- Text -->
 #### sedang dibangun, akan dipublikasikan Maret/April 2023
