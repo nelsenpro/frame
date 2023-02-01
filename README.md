@@ -4,6 +4,14 @@ Frame-CSS : _Framework SS Indonesia_
 | --- | --- |
 | Versi | 1.1.23 | 
 | Lisensi | GNU GPL 3 |
+# Ruang Kerja
+```mermaid
+graph TD;
+    Framecss-->aframe;
+    aframe-->frame.css;
+    Framecss-->index.html;
+    Framecss-->lisensi;
+```
 
 # Langkah Cepat
 - unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe)
