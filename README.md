@@ -7,15 +7,20 @@ Frame-CSS : _Framework SS Indonesia_
 # Ruang Kerja
 ```mermaid
 graph TD;
-    Framecss-->aframe;
-    aframe-->frame.css;
-    Framecss-->index.html;
-    Framecss-->lisensi;
-    aframe-->fonts;
-    aframe-->gambar;
-    Framecss-->contoh;
-    Framecss-->baca.md;
-    aframe-->frame.js
+    Framecss/-->aframe/;
+    aframe/-->frame.css;
+    Framecss/-->index.html;
+    Framecss/-->lisensi;
+    aframe/-->fonts/;
+    fonts/-->google_fonts.css;
+    aframe/-->gambar/;
+    gambar/-->gambar1.jpg;
+    gambar/-->gambar2.jpg;
+    Framecss/-->contoh/;
+    contoh/-->contoh1.html;
+    contoh/-->conto2.html;
+    Framecss/-->baca.md;
+    aframe/-->frame.js
 ```
 
 # Langkah Cepat
