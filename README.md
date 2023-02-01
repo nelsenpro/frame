@@ -11,6 +11,11 @@ graph TD;
     aframe-->frame.css;
     Framecss-->index.html;
     Framecss-->lisensi;
+    aframe-->fonts;
+    aframe-->gambar;
+    Framecss-->contoh;
+    Framecss-->baca.md;
+    aframe-->frame.js
 ```
 
 # Langkah Cepat
