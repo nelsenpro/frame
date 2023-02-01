@@ -9,7 +9,7 @@ Frame-CSS : _Framework SS Indonesia_
 - unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe)
 - buat file index.html
 - konfigurasi 
-```
+```html
 <!DOCTYPE html>
 
 <html lang="en">
