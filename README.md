@@ -4,6 +4,21 @@ Frame-CSS : _Framework SS Indonesia_
 | --- | --- |
 | Versi | 1.1.23 | 
 | Lisensi | GNU GPL 3 |
+
+## Daftar isi :
+
+- [Frame-CSS](#frame-css)
+- [Daftar isi](#daftar-isi)
+- [Ruang Kerja](#ruang-kerja)
+- [Langkah cepat ](#langkah-cepat)
+- [info](#info)
+- [kontribusi](#kontribusi)
+- [HP](#hp)
+- [Versi](#versi)
+- [Creators](#creators)
+- [Thanks](#thanks)
+- [lisensi](#lisensi)
+
 # Ruang Kerja
 ```mermaid
 graph TD;
@@ -56,11 +71,19 @@ graph TD;
 ```
 
 <!-- Text -->
+## info
 #### sedang dibangun, akan dipublikasikan Maret/April 2023
-# info: kontribusi 
+## kontribusi 
 <!-- Text -->
 ### tentu saja ini bebas dikembangkan
-## HP : +6285328736706
+## HP
+#### +6285328736706
 <!-- Text -->
+
+## Creators
+Nelsen Niko 
 <!-- Text -->
+
+## Thanks
+Normalize.css | Animate.css
 
