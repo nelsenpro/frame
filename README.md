@@ -10,6 +10,7 @@ Frame-CSS : _Framework SS Indonesia_
 - [Frame-CSS](#frame-css)
 - [Daftar isi](#daftar-isi)
 - [Ruang Kerja](#ruang-kerja)
+- [Diagram](#diagram)
 - [Langkah cepat ](#langkah-cepat)
 - [info](#info)
 - [kontribusi](#kontribusi)
@@ -19,7 +20,21 @@ Frame-CSS : _Framework SS Indonesia_
 - [Thanks](#thanks)
 - [lisensi](#lisensi)
 
-# Ruang Kerja
+# Ruang Kerja Sederhana
+
+  ```text
+framecss/
+├── aframe/
+│   ├── frame.css
+│   └── frame.js
+├── contoh/
+│   ├── contoh1.html
+│   └── contoh2.html
+├── lisensi
+└── mulai.html
+  ```
+
+## Diagram
 ```mermaid
 graph TD;
     Framecss/-->aframe/;
