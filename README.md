@@ -27,11 +27,10 @@ framecss/
 ├── aframe/
 │   ├── frame.css
 │   └── frame.js
-├── contoh/
-│   ├── contoh1.html
-│   └── contoh2.html
+├── myweb/
+│   └── index.html
 ├── lisensi
-└── mulai.html
+└── readme
   ```
 
 ## Diagram
