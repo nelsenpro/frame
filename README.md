@@ -32,6 +32,51 @@ framecss/
 ├── lisensi
 └── readme
   ```
+# Ruang Kerja Kompleks
+### bundle yang didapat saat unduh
+  ```text
+framecss/
+├── aframe/
+│   ├── frame.js
+│   ├── animate.css
+│   ├── base.css
+│   ├── fonts/
+│   │   ├── font-awesome.min.css
+│   │   ├── googlefonts.css
+│   │   └── googlefonts2.woff2
+│   ├── frame.css
+│   ├── gambar/
+│   │   ├── gmb1.jpg
+│   │   ├── gmb10.jpg
+│   │   ├── gmb11.jpg
+│   │   ├── gmb12.jpg
+│   │   ├── gmb13.jpg
+│   │   ├── gmb14.jpg
+│   │   ├── gmb15.jpg
+│   │   ├── gmb2.jpg
+│   │   ├── gmb3.jpg
+│   │   ├── gmb4.jpg
+│   │   ├── gmb5.jpg
+│   │   ├── gmb6.jpg
+│   │   ├── gmb7.jpg
+│   │   ├── gmb8.jpg
+│   │   └── gmb9.jpg
+│   └── normalize.css
+├── baca.md
+├── contoh/
+│   ├── blokkuotes.html
+│   ├── gambar.html
+│   ├── home.html
+│   ├── kontainer.html
+│   ├── latar.html
+│   ├── login.html
+│   ├── navbarbuttonfix.html
+│   ├── navbardrop.html
+│   ├── navbartopfix.html
+│   └── tabel.html
+├── lisensi
+└── mulai.html
+```
 
 ## Diagram
 ```mermaid
