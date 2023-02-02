@@ -136,11 +136,11 @@ graph TD;
 <!-- Text -->
 ### tentu saja ini bebas dikembangkan
 ## HP
-#### +6285328736706
+#### [+6285328736706](https://wa.me/6285328736706)
 <!-- Text -->
 
 ## Creators
-Nelsen Niko 
+*Nelsen Niko*
 <!-- Text -->
 
 ## Thanks
