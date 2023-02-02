@@ -144,5 +144,5 @@ Nelsen Niko
 <!-- Text -->
 
 ## Thanks
-Normalize.css | Animate.css
+[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/)
 
