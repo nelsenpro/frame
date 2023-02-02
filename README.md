@@ -98,7 +98,7 @@ graph TD;
 ```
 
 # Langkah Cepat
-- unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe)
+- unduh file FrameCSS [Google Drive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe) | [Gitlab](https://)
 - buat file index.html
 - konfigurasi 
 ```html
