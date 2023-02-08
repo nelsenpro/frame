@@ -23,14 +23,14 @@ Frame-CSS : _Framework SS Indonesia_
 # Ruang Kerja Sederhana
 
   ```text
-framecss/
-├── aframe/
-│   ├── frame.css
-│   └── frame.js
-├── myweb/
-│   └── index.html
-├── lisensi
-└── readme
+
+
+
+
+
+
+
+
   ```
 # Ruang Kerja Kompleks
 ### bundle yang didapat saat unduh
