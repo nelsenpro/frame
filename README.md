@@ -23,59 +23,96 @@ Frame-CSS : _Framework SS Indonesia_
 # Ruang Kerja Sederhana
 
   ```text
-
-
-
-
-
-
-
-
+framecss-1.alpha
+├── data
+│   ├── animate.css
+│   ├── base.css
+│   ├── fonts
+│   │   ├── all.css
+│   │   └── webfonts
+│   │       ├── fa-brands-400.eot
+│   │       ├── fa-brands-400.svg
+│   │       ├── fa-brands-400.ttf
+│   │       ├── fa-brands-400.woff
+│   │       ├── fa-brands-400.woff2
+│   │       ├── fa-regular-400.eot
+│   │       ├── fa-regular-400.svg
+│   │       ├── fa-regular-400.ttf
+│   │       ├── fa-regular-400.woff
+│   │       ├── fa-regular-400.woff2
+│   │       ├── fa-solid-900.eot
+│   │       ├── fa-solid-900.svg
+│   │       ├── fa-solid-900.ttf
+│   │       ├── fa-solid-900.woff
+│   │       └── fa-solid-900.woff2
+│   ├── frame.css
+│   ├── frame.js
+│   |
+│   │  
+│   │   
+│   │   
+│   │  
+│   │   
+│   │  
+│   │   
+│   │  
+│   │   
+│   │  
+│   │   
+│   └── normalize.css
+├
+├
+├
+├── index.html
+├── modif.css
+└── modif.js
   ```
 # Ruang Kerja Kompleks
 ### bundle yang didapat saat unduh
   ```text
-framecss/
-├── aframe/
-│   ├── frame.js
-│   ├── animate.css
-│   ├── base.css
-│   ├── fonts/
-│   │   ├── font-awesome.min.css
-│   │   ├── googlefonts.css
-│   │   └── googlefonts2.woff2
-│   ├── frame.css
-│   ├── gambar/
-│   │   ├── gmb1.jpg
-│   │   ├── gmb10.jpg
-│   │   ├── gmb11.jpg
-│   │   ├── gmb12.jpg
-│   │   ├── gmb13.jpg
-│   │   ├── gmb14.jpg
-│   │   ├── gmb15.jpg
-│   │   ├── gmb2.jpg
-│   │   ├── gmb3.jpg
-│   │   ├── gmb4.jpg
-│   │   ├── gmb5.jpg
-│   │   ├── gmb6.jpg
-│   │   ├── gmb7.jpg
-│   │   ├── gmb8.jpg
-│   │   └── gmb9.jpg
-│   └── normalize.css
-├── baca.md
-├── contoh/
-│   ├── blokkuotes.html
-│   ├── gambar.html
-│   ├── home.html
-│   ├── kontainer.html
-│   ├── latar.html
-│   ├── login.html
-│   ├── navbarbuttonfix.html
-│   ├── navbardrop.html
-│   ├── navbartopfix.html
-│   └── tabel.html
-├── lisensi
-└── mulai.html
+framecss-1.alpha
+├── data
+│   ├── animate.css
+│   ├── base.css
+│   ├── fonts
+│   │   ├── all.css
+│   │   └── webfonts
+│   │       ├── fa-brands-400.eot
+│   │       ├── fa-brands-400.svg
+│   │       ├── fa-brands-400.ttf
+│   │       ├── fa-brands-400.woff
+│   │       ├── fa-brands-400.woff2
+│   │       ├── fa-regular-400.eot
+│   │       ├── fa-regular-400.svg
+│   │       ├── fa-regular-400.ttf
+│   │       ├── fa-regular-400.woff
+│   │       ├── fa-regular-400.woff2
+│   │       ├── fa-solid-900.eot
+│   │       ├── fa-solid-900.svg
+│   │       ├── fa-solid-900.ttf
+│   │       ├── fa-solid-900.woff
+│   │       └── fa-solid-900.woff2
+│   ├── frame.css
+│   ├── frame.js
+│   ├── gambar
+│   │   ├── Screenshot_20230208_190451.jpg
+│   │   ├── Screenshot_20230208_190603.jpg
+│   │   ├── Screenshot_20230208_190641.jpg
+│   │   ├── Screenshot_20230208_190822.jpg
+│   │   ├── gmb1.jpg
+│   │   ├── gmb2.jpg
+│   │   ├── gmb3.jpg
+│   │   ├── gmb4.jpg
+│   │   ├── gmb5.jpg
+│   │   ├── gmb6.jpg
+│   │   └── gmb7.jpg
+│   └── normalize.css
+├── index.html
+├── index2.html
+├── index3.html
+├── lisensi.txt
+├── modif.css
+└── modif.js
 ```
 
 ## Diagram
@@ -116,22 +153,23 @@ graph TD;
 
     <title>Document</title>
 
-    <link rel="" href="frame/frame.css" title="css" type="text/css" />
+    <link rel="" href="data/frame.css" title="css" type="text/css" />
 
 </head>
 
 <body>
 
-    <h1>Selamat Datang di Frame-CSS Indonesia</h1>
+    <h1>Selamat Datang di Framework CSS Indonesia</h1>
 
 </body>
-
+<script src="data/frame.js"></script>
+<script src="modif.js"></script>
 </html>
 ```
 
 <!-- Text -->
 ## info
-#### sedang dibangun, akan dipublikasikan Maret/April 2023
+#### uji coba dalam versi 1.1.23 Alpha
 ## kontribusi 
 <!-- Text -->
 ### tentu saja ini bebas dikembangkan
