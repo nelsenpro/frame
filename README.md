@@ -133,7 +133,10 @@ graph TD;
     Framecss/-->baca.md;
     aframe/-->frame.js
 ```
+# Standar template 
+```html
 
+```
 # Langkah Cepat
 - unduh file FrameCSS [Gdrive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe) | [Gitlab](https://)
 - buat file index.html
