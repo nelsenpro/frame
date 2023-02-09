@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Frame-CSS 1.1.23 Alpha
+ * Copyright 2023-Now The Frame-CSS Authors
+ * Licensed GNU GPL
+ by Nelsen Niko :: +62 85328736706
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+
+/*
+********************************************
+** modifikasi css bawaan dari Framework
+** kamu dapat memodifikasi semuanya sesuai selera
+********************************************
+*/
+
+/* ukuran utama */
+.utama.samping25 {
+    width: 25%;
+}
+
+/* konten tengah */
+.utama.tengah50 {
+    width: 50%;
+}
+
+/* akhir ukuran utama */
+
+details {}
+
+summary {}
+
+/* ikon untuk pencarian pada tabel */
+#ketikkan {
+    background-image: url('/');
+}

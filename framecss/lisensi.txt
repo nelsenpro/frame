@@ -1,0 +1,15 @@
+GNU GPL
+// open source // framework ini dibuat untuk semua orang // boleh dikembangkan oleh semua orang// boleh dimodifikasi oleh semua orang//
+Semua orang adalah kreator dan pengembang..
+
+info Developer: +62 85328736706 (nelsen niko)
+
+@charset "UTF-8";
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Frame-CSS 1.1.23 Alpha
+ * Copyright 2023-Now The Frame-CSS Authors
+ * Licensed GNU GPL
+ by Nelsen Niko :: +62 85328736706
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
