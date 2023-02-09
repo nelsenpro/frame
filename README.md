@@ -135,7 +135,65 @@ graph TD;
 ```
 # Standar template 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <!-- awal koneksi framecss -->
+    <link rel="stylesheet" href="data/frame.css" type="text/css" media="all" />
+            <!-- akhir koneksi framecss -->
+    <title>Frame-CSS.1.Alpha</title>
+</head>
+<body>
+    <div>
+        <!-- bagian navbar-->
+        <div class="" id="">
+        <!-- akhir navbar-->
+        
+        <!-- bagian header, jumbotron- blok-->
+        </div>
+        <div class="">
+            <h1 class="">Halo Dunia</h1>
+            <p>
+                ........
+            </p>
+        </div>
+         <!-- akhir blok, jumbotron-->
+         
+         <!-- isi konten 1-->
+        <div class="baris">
+                <div class="utama samping">
+                    <h2 class=""></h2>
+                    <p></p>
+                    <h2 class=""></h2>
+                    <p></p>
+                </div>
+             <!-- akhir konten 1-->
+             
+             <!-- isi konten 2-->
+                <div class="utama tengah">
+                    <h2 class=""></h2>
+                    <p></p>
+                    <h2 class=""></h2>
+                    <p></p>
+                </div>
+             <!-- akhir konten 2-->
+             
+             <!-- awal footer-->
+        </div>
+        <div class="">
+            <p class=""></p>
+        </div>
+           <!-- akhir footer-->
+    </div>
+        <!-- koneksi ke JavaScript-->
+    <script src="data/frame.js"></script>
+    <script src="modif.js"></script>
+          <!-- akhir koneksi JavaScript-->
+</body>
+</html>
 ```
 # Langkah Cepat
 - unduh file FrameCSS [Gdrive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe) | [Gitlab](https://)
