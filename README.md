@@ -183,7 +183,7 @@ graph TD;
              
              <!-- awal footer-->
         </div>
-        <div class="">
+        <div class="kaki">
             <p class=""></p>
         </div>
            <!-- akhir footer-->
