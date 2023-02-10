@@ -20,7 +20,7 @@ Frame-CSS : _Framework CSS Indonesia_
 - [Thanks](#thanks)
 - [lisensi](#lisensi)
 
-# Ruang Kerja Sederhana
+# Struktur Framecss 
 
   ```text
 framecss-1.alpha
@@ -30,44 +30,15 @@ framecss-1.alpha
 │   ├── fonts
 │   │   ├── all.css
 │   │   └── webfonts
-│   │       ├── fa-brands-400.eot
-│   │       ├── fa-brands-400.svg
-│   │       ├── fa-brands-400.ttf
-│   │       ├── fa-brands-400.woff
-│   │       ├── fa-brands-400.woff2
-│   │       ├── fa-regular-400.eot
-│   │       ├── fa-regular-400.svg
-│   │       ├── fa-regular-400.ttf
-│   │       ├── fa-regular-400.woff
-│   │       ├── fa-regular-400.woff2
-│   │       ├── fa-solid-900.eot
-│   │       ├── fa-solid-900.svg
-│   │       ├── fa-solid-900.ttf
-│   │       ├── fa-solid-900.woff
-│   │       └── fa-solid-900.woff2
 │   ├── frame.css
 │   ├── frame.js
-│   |
-│   │  
-│   │   
-│   │   
-│   │  
-│   │   
-│   │  
-│   │   
-│   │  
-│   │   
-│   │  
-│   │   
+│   ├── gambar
 │   └── normalize.css
-├
-├
-├
 ├── index.html
 ├── modif.css
 └── modif.js
   ```
-# Ruang Kerja Kompleks
+# Detail Struktur Framecss
 ### bundle yang didapat saat unduh
   ```text
 framecss-1.alpha
