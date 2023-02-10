@@ -1,4 +1,4 @@
-# Frame-CSS
+# FrameCSS
 Frame-CSS : _Framework CSS Indonesia_
 | Nama | Deskripsi |
 | --- | --- |
@@ -23,16 +23,16 @@ Frame-CSS : _Framework CSS Indonesia_
 # Struktur Framecss 
 
   ```text
-framecss-1.alpha
-├── data
+framecss-1.alpha/
+├── data/
 │   ├── animate.css
 │   ├── base.css
-│   ├── fonts
-│   │   ├── all.css
-│   │   └── webfonts
+│   ├── fonts/
+│   │  
+│   │   
 │   ├── frame.css
 │   ├── frame.js
-│   ├── gambar
+│   ├── gambar/
 │   └── normalize.css
 ├── index.html
 ├── modif.css
