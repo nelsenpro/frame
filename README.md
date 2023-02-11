@@ -2,9 +2,29 @@
 Frame _CSS Framework CSS Indonesia_
 | Nama | Deskripsi |
 | --- | --- |
-| Versi | 1.1.23 | 
+| Versi | 1.1.23 Alpha ; 1.2.23 Alpha| 
 | Lisensi | GNU GPL 3 |
 
+## Manfaat Framecss :
+1. ukurannya sangat kecil dibandingkan Framework CSS lainnya dan banyak Library CSS yang tidak terpakai
+2. cepat dan efisien saat membuat WebApp dan Website
+3. gratis dan Open Source
+4. mudah digunakan oleh pemula
+5. nama-nama kelas "class" kebanyakan pakai bahasa Indonesia
+6. Ikon lengkap bawaan dari Fontsawesome versi 5
+7. adanya animasi bergerak untuk setiap elemen web
+8. hasilnya cukup Responsible, karena mendukung Layout Float dan Grid System
+
+## Kekurangan Framecss:
+1. Masih baru muncul February tahun 2023
+2. Belum dikenal oleh banyak Web Front-End-Developer
+3. Masih banyak Bug, masih versi Alpha( belum ada versi Rilis)
+4. Komunitas dan Pengembangnya minim
+
+## Apa yang baru di versi 1.2.23 Alpha?
+1. Penambahan Warna-warni milik Bootstrap
+2. Memiliki Text Editor
+3. Mendukung Grid System Layout
 ## Daftar isi :
 
 - [Frame-CSS](#frame-css)
