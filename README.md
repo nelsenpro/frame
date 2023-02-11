@@ -175,7 +175,7 @@ graph TD;
 
 <!-- Text -->
 ## info
-#### uji coba dalam versi 1.1.23 Alpha
+#### uji coba dalam versi 1.1.23 Alpha dan 1.2.23 Alpha 
 ## kontribusi 
 <!-- Text -->
 ### tentu saja ini bebas dikembangkan
