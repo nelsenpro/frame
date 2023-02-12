@@ -16,7 +16,7 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan W
 - [Bikin Panel](#membangun-panel)
 - [Bikin Tombol](#membangun-tombol)
 - [Bikin Tabel](#membangun-tabel)
-- [Dokumentasi Lainnya]()
+- [Dokumentasi Lainnya](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
 - [Creators](#creators)
 - [Thanks](#thanks)
 # Dokumentasi
@@ -115,7 +115,7 @@ framecss-1.alpha/
 ## Membangun Tabel
 ```html
 ```
-# [Lanjutkan Dokumentasi atau Tuturial]()
+# [Lanjutkan Dokumentasi atau Tuturial](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
 
 ## Creators
 [*Nelsen Niko*](https://wa.me/6285328736706/)
