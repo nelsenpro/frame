@@ -63,24 +63,8 @@ framecss-1.alpha/
   ```
 # Framecss - Framework CSS Indonesia 
 ## Ciptakan WebApp dan Website Modern, tanpa batas dan selalu baru.
-## Diagram
-```mermaid
-graph TD;
-    Framecss/-->aframe/;
-    aframe/-->frame.css;
-    Framecss/-->index.html;
-    Framecss/-->lisensi;
-    aframe/-->fonts/;
-    fonts/-->google_fonts.css;
-    aframe/-->gambar/;
-    gambar/-->gambar1.jpg;
-    gambar/-->gambar2.jpg;
-    Framecss/-->contoh/;
-    contoh/-->contoh1.html;
-    contoh/-->conto2.html;
-    Framecss/-->baca.md;
-    aframe/-->frame.js
-```
+
+
 # Standar template 
 ```html
 <!DOCTYPE html>
@@ -144,7 +128,7 @@ graph TD;
 </html>
 ```
 # Langkah Cepat
-- unduh file FrameCSS [Gdrive](https://google.drive.com) | [Github](https://github.com/nelsenpro/aframe) | [Gitlab](https://)
+- unduh file FrameCSS via Terminal atau [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
 - buat file index.html
 - konfigurasi 
 ```html
@@ -164,7 +148,7 @@ graph TD;
 
     <link rel="" href="data/frame.css" title="css" type="text/css" />
 
-</head>
+<
 
 <body>
 
@@ -191,5 +175,5 @@ graph TD;
 <!-- Text -->
 
 ## Thanks
-[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/)
+[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/) | [Fontsawesome](https://fontawesome.com/) | 
 
