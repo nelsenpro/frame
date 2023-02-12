@@ -1,8 +1,8 @@
 # FrameCSS
 Frame _CSS Framework CSS Indonesia_
 # Download dan install 
-### Terminal, Git, CMD : git clone https://github.com/nelsenpro/frame.git
-[Github](https://github.com/nelsenpro/frame.git)
+### Terminal, Git, CMD : "git clone https://github.com/nelsenpro/frame.git"
+### unduh via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
 | Nama | Deskripsi |
 | --- | --- |
 | Versi | 1.1.23 Alpha ; 1.2.23 Alpha| 
