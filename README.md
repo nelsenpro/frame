@@ -3,7 +3,8 @@
 Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan Website
 # Download dan install 
 ### Terminal, Git, CMD : "git clone https://github.com/nelsenpro/frame.git"
-### unduh via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
+### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
+### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
 | Nama | Deskripsi |
 | --- | --- |
 | Versi | 1.1.23 Alpha ; 1.2.23 Alpha| 
