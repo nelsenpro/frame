@@ -24,7 +24,7 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan W
 # Dokumentasi
 ## Struktur Framecss 
   ```text
-framecss-1.alpha/
+framecss-2.alpha/
 ├── data/
 │ ├── animate.css
 │ ├── base.css
