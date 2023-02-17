@@ -1,4 +1,4 @@
-[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKljx6UhgoG9JxlJzKsxkNjBEzu8Xe6HUcpz6Xdw9cWSx1n-R6fM2HVstqb8FA3FxA7JU-NnEOHKChDNi3VHo8IvodX5erfcRcTztr6s3r7bj4cn02B6q6X6L1S6f2F2BkrRhtVUyTyvekJknoJ7u34PXPzrSH4K1Gq7om86iuUs1NTL-V23Mf_IVtag/s4096/framecss-1-1.jpg" width=55%>](https://)
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKljx6UhgoG9JxlJzKsxkNjBEzu8Xe6HUcpz6Xdw9cWSx1n-R6fM2HVstqb8FA3FxA7JU-NnEOHKChDNi3VHo8IvodX5erfcRcTztr6s3r7bj4cn02B6q6X6L1S6f2F2BkrRhtVUyTyvekJknoJ7u34PXPzrSH4K1Gq7om86iuUs1NTL-V23Mf_IVtag/s4096/framecss-1-1.jpg" width=20%>](https://)
 # Contoh Halaman Login 
 ```html
 <!DOCTYPE html>
@@ -203,4 +203,108 @@ slideOutUp
 ```javascript
 const element = document.querySelector('.animasi-ku');
 element.classList.add('animate__animated', 'animate__bounce');
+```
+# Foto Slideshow
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
+    <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+    <title>framecss</title>
+</head>
+<body class="putih framecss">
+    <div class="framecss-grid">
+        <div class="kepala lbs-ungu">
+            <h1 class="">Selamat Datang di Framecss Indonesia</h1>
+            <small class="">
+                versi <i>2.1.23</i> <b>Alpha</b>
+            </small>
+        </div>
+        <div class="badan-kiri lbs-hijau">
+            <div class="">
+                <h2 class="">badan samping</h2>
+            </div>
+        </div>
+        <div class="badan-tengah lbs-oren">
+            <div class="">
+                <h2 class="">badan tengah</h2>
+                <h2 class="">Slideshow</h2>
+                <div class="slideshow-container">
+
+                    <div class="frameslides fade">
+                        <div class="angkateks">
+                            1 / 3
+                        </div>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK1FqEhHQKe8QVRWHkJELDHR2xU3XzAjOsuM5anEEabGPuXkgiIjYDvT0lCLlpPAtt2ont5GXPT5uBgivz7Z9mj8L2jF_jtQa1DY26g_E7J6IAWWJz2g8-opSVm7dNgqJCTpc1sJjeLjkOvdxGZBXFxKtP8Ohh3sE6ZoSVfh4HaNqdJpYBoy3eIH-VIA/s1920/gmb1.jpg" style="width:100%">
+                        <div class="text">
+                            Gambar 1
+                        </div>
+                    </div>
+
+                    <div class="frameslides fade">
+                        <div class="angkateks">
+                            2 / 3
+                        </div>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_GVYSyLNBGLeZMPwWEeyOHeE1Ju0wqj0E1JeIecqGv3_COoyjm06F2pVv-zBta99jH46612ju_diDlQ-hyrHuCq3J3flooLVIWxh8v9CiprNAo1NjoudWUAEAr1u4OYeM9ucgnOEseCGtJFtDPgYZQbEr4hZXEjTj4B5Eys2MLBxCgpf-ld6mlqhQ6Q/s1920/gmb5.jpg" style="width:100%">
+                        <div class="text">
+                            Gambar 2
+                        </div>
+                    </div>
+
+                    <div class="frameslides fade">
+                        <div class="angkateks">
+                            3 / 3
+                        </div>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIb-fNdsxPD2Nrfr85-CruNjbAAvmQiArjpYiZ_nTiZ6dhZAEz74dnyd8H31QHCY8uIPj5g9WeWOF_umQ_LdM3hfa3_DY0txNekN6i1sssAGdDUdxu_1ko2UpWI8MKKhb7le8GayN65MGyafwG2hb_3b_-hyGW6zEwCa3x7H0QLma0_hUYDGsZfCqY2g/s1920/gmb6.jpg" style="width:100%">
+                        <div class="text">
+                            Gambar 3
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                </div>
+            </div>
+        </div>
+        <div class="badan-kanan lbs-merah">
+            <div class="">
+                <h2 class="">badan kanan</h2>
+            </div>
+        </div>
+        <div class="kaki lbs-ping">
+            <h2 class="putih">Kaki</h2>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("frameslides");
+            let titiks = document.getElementsByClassName("titik");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < titiks.length; i++) {
+                titiks[i].className = titiks[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            titiks[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>
 ```
