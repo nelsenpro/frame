@@ -1,31 +1,34 @@
 [<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2SkG2t8NshC_wKAJhPhixCLtsYfzlLCBxRrMXfPXUNq8iLBtHzHFmkyQ36SedZw5CpGEIdFk0hfD1D8OykxFcqSueHpGuOQFwhaiX51P_0Tg670-0afL0-JmxDKcMCkSVF3LvNb_s92G3KAzexnFbsBT2vUqWo2Of5WL5VI6CqHFVor-zIE6yqatoSw/s4096/Framecss-banner.jpg" width=55%>](https://github.com/nelsenpro/frame)
 # Selamat Datang di ::Framecss Framework CSS
 Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan Website
-# Download dan install offline 
-### Terminal, Git, CMD : "git clone https://github.com/nelsenpro/frame.git"
-### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
-### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
-# atau Koneksikan Framecss Online
-```html
-<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
-```
-| Nama | Deskripsi |
-| --- | --- |
-| Versi | 1.1.23 Alpha ; 2.1.23 Alpha| 
-| Lisensi | GNU GPL 3 |
 ## Daftar isi :
+- [Persiapan](#download)
 - [Dokumentasi](#dokumentasi)
 - [Struktur Framecss](#struktur-framecss)
 - [Layout](#float-layout)
 - [Grid Layout](#grid-layout)
 - [Bikin Header](#membangun-header)
-- [Bikin Panel](#membangun-panel)
+- [Bikin Panel](#header-panel)
 - [Bikin Tombol](#membangun-tombol)
 - [Bikin Tabel](#membangun-tabel)
 - [Dokumentasi Lainnya](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
 - [Creators](#creators)
 - [Thanks](#thanks)
+# Download
+## install offline di proyek 
+### Terminal, Git, CMD : "git clone https://github.com/nelsenpro/frame.git"
+### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
+### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
+## atau Koneksikan Framecss Online
+```html
+<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
+<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+```
+## Deskripsi 
+| Nama | Deskripsi |
+| --- | --- |
+| Versi | 1.1.23 Alpha ; 2.1.23 Alpha| 
+| Lisensi | GNU GPL 3 |
 # Dokumentasi
 ## Struktur Framecss 
   ```text
