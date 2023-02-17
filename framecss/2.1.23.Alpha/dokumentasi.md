@@ -199,3 +199,8 @@ slideOutUp
 ```html
 <h1 class="animate__animated animate__bounce">An animated element</h1>
 ```
+### atau modifikasi dengan JavaScript
+```javascript
+const element = document.querySelector('.animasi-ku');
+element.classList.add('animate__animated', 'animate__bounce');
+```
