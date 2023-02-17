@@ -332,7 +332,7 @@ framecss-2.alpha/
 <!-- Text -->
 
 ## Thanks
-[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/) | [Fontsawesome](https://fontawesome.com/) | [StaticSave](https://staticsave.com/) | 
+[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/) | [Fontsawesome](https://fontawesome.com/) | [StaticSave](https://staticsave.com/) | [W3SCHOOLS](https://www.w3schools.com/) |
 
 
 
