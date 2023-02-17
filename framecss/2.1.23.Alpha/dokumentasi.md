@@ -53,9 +53,7 @@ animate__shakeX
 animate__shakeY
 animate__headShake
 animate__tada
-```
-<details>
-<summary> Selengkapnya</summary>
+
 nama lainnya:
 1. Attention seekers :
 bounce
@@ -184,21 +182,20 @@ slideOutDown
 slideOutLeft
 slideOutRight
 slideOutUp
-</details>
-### cara menggunakan Animasi
-<!---
-```text
+```
+### cara menggunakan Animasi, modifikasi dengan CSS
+```css
 .animasi-ku {
     display: inline-block;
-    margin: 0 0.5rem;
-    animation: bounce; /* nama animasi  */
-    animation-duration: 2s; /* durasi animasi  */
+    margin: 0 0.5rem;*/
+    animation: bounce;  /*nama animasi  */
+    animation-duration: 2s;  /*durasi animasi  */
 }
-
+```
+```html
 <h1 class="animasi-ku">class animasi-ku</h1>
 ```
 ### cara lainnya, masukkan class pada tag html nya
-```text
+```html
 <h1 class="animate__animated animate__bounce">An animated element</h1>
 ```
--->
