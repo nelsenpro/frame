@@ -8,7 +8,7 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan W
 # atau Koneksikan Framecss Online
 ```html
 <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-    <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 ```
 | Nama | Deskripsi |
 | --- | --- |
@@ -332,7 +332,7 @@ framecss-2.alpha/
 <!-- Text -->
 
 ## Thanks
-[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/) | [Fontsawesome](https://fontawesome.com/) | 
+[Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/) | [Fontsawesome](https://fontawesome.com/) | [StaticSave](https://staticsave.com/) | 
 
 
 
