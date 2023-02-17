@@ -41,3 +41,150 @@
 </body>
 </html>
 ```
+# Nama Class Animasi
+```text
+nama class :
+
+animate__bounce
+animate__flash
+animate__pulse
+animate__rubberBand
+animate__shakeX
+animate__shakeY
+animate__headShake
+animate__tada
+
+nama lainnya:
+1. Attention seekers
+bounce
+flash
+pulse
+rubberBand
+shakeX
+shakeY
+headShake
+swing
+tada
+wobble
+jello
+heartBeat
+
+2. Back entrances
+backInDown
+backInLeft
+backInRight
+backInUp
+
+3. Back exits
+backOutDown
+backOutLeft
+backOutRight
+backOutUp
+
+4. Bouncing entrances
+bounceIn
+bounceInDown
+bounceInLeft
+bounceInRight
+bounceInUp
+
+5. Bouncing exits
+bounceOut
+bounceOutDown
+bounceOutLeft
+bounceOutRight
+bounceOutUp
+
+6. Fading entrances
+fadeIn
+fadeInDown
+fadeInDownBig
+fadeInLeft
+fadeInLeftBig
+fadeInRight
+fadeInRightBig
+fadeInUp
+fadeInUpBig
+fadeInTopLeft
+fadeInTopRight
+fadeInBottomLeft
+fadeInBottomRight
+
+7. Fading exits
+fadeOut
+fadeOutDown
+fadeOutDownBig
+fadeOutLeft
+fadeOutLeftBig
+fadeOutRight
+fadeOutRightBig
+fadeOutUp
+fadeOutUpBig
+fadeOutTopLeft
+fadeOutTopRight
+fadeOutBottomRight
+fadeOutBottomLeft
+
+8. Flippers
+flip
+flipInX
+flipInY
+flipOutX
+flipOutY
+
+9. Lightspeed
+lightSpeedInRight
+lightSpeedInLeft
+lightSpeedOutRight
+lightSpeedOutLeft
+
+10. Rotating entrances
+rotateIn
+rotateInDownLeft
+rotateInDownRight
+rotateInUpLeft
+rotateInUpRight
+
+11. Rotating exits
+rotateOut
+rotateOutDownLeft
+rotateOutDownRight
+rotateOutUpLeft
+rotateOutUpRight
+
+12. Specials
+hinge
+jackInTheBox
+rollIn
+rollOut
+
+13. Zooming entrances
+zoomIn
+zoomInDown
+zoomInLeft
+zoomInRight
+zoomInUp
+
+14. Zooming exits
+zoomOut
+zoomOutDown
+zoomOutLeft
+zoomOutRight
+zoomOutUp
+
+15. Sliding entrances
+slideInDown
+slideInLeft
+slideInRight
+slideInUp
+Sliding exits
+slideOutDown
+slideOutLeft
+slideOutRight
+slideOutUp
+```
+## cara menggunakan Animasi
+```html
+class=""
+```
+
