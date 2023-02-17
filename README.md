@@ -1,13 +1,18 @@
 [<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKljx6UhgoG9JxlJzKsxkNjBEzu8Xe6HUcpz6Xdw9cWSx1n-R6fM2HVstqb8FA3FxA7JU-NnEOHKChDNi3VHo8IvodX5erfcRcTztr6s3r7bj4cn02B6q6X6L1S6f2F2BkrRhtVUyTyvekJknoJ7u34PXPzrSH4K1Gq7om86iuUs1NTL-V23Mf_IVtag/s4096/framecss-1-1.jpg" width=55%>](https://github.com/nelsenpro/frame)
 # Selamat Datang di ::Framecss Framework CSS
 Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan Website
-# Download dan install 
+# Download dan install offline 
 ### Terminal, Git, CMD : "git clone https://github.com/nelsenpro/frame.git"
 ### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
 ### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
+# atau Koneksikan Framecss Online
+```html
+<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
+    <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+```
 | Nama | Deskripsi |
 | --- | --- |
-| Versi | 1.1.23 Alpha ; 1.2.23 Alpha| 
+| Versi | 1.1.23 Alpha ; 2.1.23 Alpha| 
 | Lisensi | GNU GPL 3 |
 ## Daftar isi :
 - [Dokumentasi](#dokumentasi)
@@ -49,7 +54,7 @@ framecss-2.alpha/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <!-- awal koneksi framecss -->
-    <link rel="stylesheet" href="data/frame.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
             <!-- akhir koneksi framecss -->
     <title>Frame-CSS.1.Alpha</title>
 </head>
@@ -96,8 +101,7 @@ framecss-2.alpha/
            <!-- akhir footer-->
     </div>
         <!-- koneksi ke JavaScript-->
-    <script src="data/frame.js"></script>
-    <script src="modif.js"></script>
+     <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
           <!-- akhir koneksi JavaScript-->
 </body>
 </html>
@@ -111,7 +115,7 @@ framecss-2.alpha/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="data/frame.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
     <title>Document</title>
 </head>
 <body>
@@ -133,6 +137,7 @@ framecss-2.alpha/
             </p>
         </div>
     </div>
+ <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
 ```
@@ -144,7 +149,8 @@ framecss-2.alpha/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="data/frame.min.css" type="text/css" media="all" />
+    
+<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
     <title>framecss</title>
 </head>
 <body class="putih framecss">
@@ -174,6 +180,7 @@ framecss-2.alpha/
            <h2 class="hitam">Kaki</h2>
        </div>
     </div>
+ <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
 ```
