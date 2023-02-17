@@ -53,9 +53,11 @@ animate__shakeX
 animate__shakeY
 animate__headShake
 animate__tada
-
+```
+<details>
+<summary> Selengkapnya</summary>
 nama lainnya:
-1. Attention seekers
+1. Attention seekers :
 bounce
 flash
 pulse
@@ -69,33 +71,33 @@ wobble
 jello
 heartBeat
 
-2. Back entrances
+2. Back entrances :
 backInDown
 backInLeft
 backInRight
 backInUp
 
-3. Back exits
+3. Back exits :
 backOutDown
 backOutLeft
 backOutRight
 backOutUp
 
-4. Bouncing entrances
+4. Bouncing entrances :
 bounceIn
 bounceInDown
 bounceInLeft
 bounceInRight
 bounceInUp
 
-5. Bouncing exits
+5. Bouncing exits :
 bounceOut
 bounceOutDown
 bounceOutLeft
 bounceOutRight
 bounceOutUp
 
-6. Fading entrances
+6. Fading entrances :
 fadeIn
 fadeInDown
 fadeInDownBig
@@ -110,7 +112,7 @@ fadeInTopRight
 fadeInBottomLeft
 fadeInBottomRight
 
-7. Fading exits
+7. Fading exits :
 fadeOut
 fadeOutDown
 fadeOutDownBig
@@ -125,54 +127,54 @@ fadeOutTopRight
 fadeOutBottomRight
 fadeOutBottomLeft
 
-8. Flippers
+8. Flippers :
 flip
 flipInX
 flipInY
 flipOutX
 flipOutY
 
-9. Lightspeed
+9. Lightspeed :
 lightSpeedInRight
 lightSpeedInLeft
 lightSpeedOutRight
 lightSpeedOutLeft
 
-10. Rotating entrances
+10. Rotating entrances :
 rotateIn
 rotateInDownLeft
 rotateInDownRight
 rotateInUpLeft
 rotateInUpRight
 
-11. Rotating exits
+11. Rotating exits :
 rotateOut
 rotateOutDownLeft
 rotateOutDownRight
 rotateOutUpLeft
 rotateOutUpRight
 
-12. Specials
+12. Specials :
 hinge
 jackInTheBox
 rollIn
 rollOut
 
-13. Zooming entrances
+13. Zooming entrances :
 zoomIn
 zoomInDown
 zoomInLeft
 zoomInRight
 zoomInUp
 
-14. Zooming exits
+14. Zooming exits :
 zoomOut
 zoomOutDown
 zoomOutLeft
 zoomOutRight
 zoomOutUp
 
-15. Sliding entrances
+15. Sliding entrances :
 slideInDown
 slideInLeft
 slideInRight
@@ -182,9 +184,21 @@ slideOutDown
 slideOutLeft
 slideOutRight
 slideOutUp
-```
-## cara menggunakan Animasi
-```html
-class=""
-```
+</details>
+### cara menggunakan Animasi
+<!---
+```text
+.animasi-ku {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* nama animasi  */
+    animation-duration: 2s; /* durasi animasi  */
+}
 
+<h1 class="animasi-ku">class animasi-ku</h1>
+```
+### cara lainnya, masukkan class pada tag html nya
+```text
+<h1 class="animate__animated animate__bounce">An animated element</h1>
+```
+-->
