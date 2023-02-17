@@ -187,69 +187,69 @@ framecss-2.alpha/
 ## Membangun Header
 ### Header Navigasi 
 ```html
- <div class="nav" id="nav">
-            <a href="#home" class="active">Beranda</a>
-            <a href="#berita">Berita</a>
-            <a href="#contact">Hubungi</a>
-            <a href="#about">Tanya</a>
-            <a href="#unduh">Unduh</a>
-            <a href="#contoh">Contoh</a>
-            <a href="javascript:void(0);" class="icon" onclick="navFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+<div class="nav" id="nav">
+    <a href="#home" class="active">Beranda</a>
+    <a href="#berita">Berita</a>
+    <a href="#contact">Hubungi</a>
+    <a href="#about">Tanya</a>
+    <a href="#unduh">Unduh</a>
+    <a href="#contoh">Contoh</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 ```
 ```html
 <div class="nav-hijau" id="nav-hijau">
-            <a href="#home" class="active">Beranda</a>
-            <a href="#news">Berita</a>
-            <a href="#contact">Hubungi</a>
-            <a href="#about">Tanya</a>
-            <a href="#unduh">Unduh</a>
-            <a href="#contoh">Contoh</a>
-            <a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+    <a href="#home" class="active">Beranda</a>
+    <a href="#news">Berita</a>
+    <a href="#contact">Hubungi</a>
+    <a href="#about">Tanya</a>
+    <a href="#unduh">Unduh</a>
+    <a href="#contoh">Contoh</a>
+    <a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 ```
 ### Header Panel
 ## Membangun Header Panel
 ### Panel Default
 ```html
 <div class="kepala">
-           <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
-           <small class="hitam">
-               versi <i>2.1.23</i> <b>Alpha</b> 
-           </small>
-       </div>
+    <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
+    <small class="hitam">
+        versi <i>2.1.23</i> <b>Alpha</b>
+    </small>
+</div>
 ```
 ### Panel modifikasi Latar 
 ```html
 <div class="nav-ping" id="nav-ping">
-            <a href="#home" class="active">Beranda</a>
-            <a href="#news">Berita</a>
-            <a href="#contact">Hubungi</a>
-            <a href="#about">Tanya</a>
-            <a href="#unduh">Unduh</a>
-            <a href="#contoh">Contoh</a>
-            <a href="javascript:void(0);" class="icon" onclick="pingFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+    <a href="#home" class="active">Beranda</a>
+    <a href="#news">Berita</a>
+    <a href="#contact">Hubungi</a>
+    <a href="#about">Tanya</a>
+    <a href="#unduh">Unduh</a>
+    <a href="#contoh">Contoh</a>
+    <a href="javascript:void(0);" class="icon" onclick="pingFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 ```
 ### Panel modifikasi Latar Animasi 
 ```html
- <div class="nav-kuning animasi-latar" id="nav-kuning">
-            <a href="#home" class="active">Beranda</a>
-            <a href="#berita">Berita</a>
-            <a href="#contact">Hubungi</a>
-            <a href="#about">Tanya</a>
-            <a href="#unduh">Unduh</a>
-            <a href="#contoh">Contoh</a>
-            <a href="javascript:void(0);" class="icon" onclick="kuningFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+<div class="nav-kuning animasi-latar" id="nav-kuning">
+    <a href="#home" class="active">Beranda</a>
+    <a href="#berita">Berita</a>
+    <a href="#contact">Hubungi</a>
+    <a href="#about">Tanya</a>
+    <a href="#unduh">Unduh</a>
+    <a href="#contoh">Contoh</a>
+    <a href="javascript:void(0);" class="icon" onclick="kuningFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 ```
 ## Membangun Tombol
 ### tombol default 
@@ -259,71 +259,71 @@ framecss-2.alpha/
 ### tombol modifikasi
 ```html
 <button class="tombol bayang-merah u10px" type="submit">Tombol</button>
-            <button class="tombol-kuning r12px" type="submit">Tombol</button>
-            <button class="tombol-ping r8px bayang" type="submit">Tombol</button>
-            <button class="tombol-magenta u25px bayang-hijau" type="submit">Tombol</button>
+<button class="tombol-kuning r12px" type="submit">Tombol</button>
+<button class="tombol-ping r8px bayang" type="submit">Tombol</button>
+<button class="tombol-magenta u25px bayang-hijau" type="submit">Tombol</button>
 ```
 ### tombol grup : Float pakai section, grid pakai div
 ```html
 <section class="grup-tmb" style="width:">
-                <button class="r12px frame expand" judul="tombol ini radius 12px" onclick="" style="width:">AcdEF</button>
-                <button class="u20px frame swing" judul="tombol ini radius 20px" onclick="" style="width:">BcDefG</button>
-                <button class="u10px" onclick="" style="width:">Cdefg</button>
-                <button class="r8px" onclick="" style="width:">DefGh</button>
-                <button class="u1px" onclick="" style="width:">EfGhij</button>
+    <button class="r12px frame expand" judul="tombol ini radius 12px" onclick="" style="width:">AcdEF</button>
+    <button class="u20px frame swing" judul="tombol ini radius 20px" onclick="" style="width:">BcDefG</button>
+    <button class="u10px" onclick="" style="width:">Cdefg</button>
+    <button class="r8px" onclick="" style="width:">DefGh</button>
+    <button class="u1px" onclick="" style="width:">EfGhij</button>
 
-            </section>
-   <br />
-            <section class="grup-tmb-v" style="width:auto">
-                <p>
-                    grup vertikal : animasi latar berubah
-                </p>
-                <button class="frame fade" judul="ukuran 50%" onclick="" style="width:50%">Abcde</button>
-                <button onclick="" style="width:50%">BcDefg</button>
-                <button class="frame aframe" onclick="" style="width:50%">CdEfgh
-                    <span class="teks">tombol ini ukuran 50%</span></button>
-                <button onclick="" style="width:90%">DefGHi</button>
-                <button onclick="" style="width:40%">EFgHI</button>
-                <button onclick="" style="width:15%">F</button>
-                <button onclick="" style="width:60%">G</button>
-                <br />
-            </section>
+</section>
+<br />
+<section class="grup-tmb-v" style="width:auto">
+    <p>
+        grup vertikal : animasi latar berubah
+    </p>
+    <button class="frame fade" judul="ukuran 50%" onclick="" style="width:50%">Abcde</button>
+    <button onclick="" style="width:50%">BcDefg</button>
+    <button class="frame aframe" onclick="" style="width:50%">CdEfgh
+        <span class="teks">tombol ini ukuran 50%</span></button>
+    <button onclick="" style="width:90%">DefGHi</button>
+    <button onclick="" style="width:40%">EFgHI</button>
+    <button onclick="" style="width:15%">F</button>
+    <button onclick="" style="width:60%">G</button>
+    <br />
+</section>
 ```
 ## Membangun Tabel
 ### tabel default 
 ```html
 <table class="tabel ta l80">
-                <tr>
-                    <th>Nama</th>
-                    <th>Class</th>
-                </tr>
-                <tr>
-                    <td>Hijau</td>
-                    <td>hijau</td>
-                </tr>
-            </table>
+    <tr>
+        <th>Nama</th>
+        <th>Class</th>
+    </tr>
+    <tr>
+        <td>Hijau</td>
+        <td>hijau</td>
+    </tr>
+</table>
 ```
 ### tabel modifikasi
 ```html
-  <input type="text" id="ketikkan" onkeyup="fungsicariTabel()" placeholder="cari nama..">
-            <table id="caritabel" class="tabel-magenta">
-                <tr>
-                    <th>Nama</th>
-                    <th>Class</th>
-                </tr>
-                <tr>
-                    <td>Hijau</td>
-                    <td>hijau</td>
-                </tr>
-                <tr>
-                    <td>Merah</td>
-                    <td>merah</td>
-                </tr>
-                <tr>
-                    <td>Magenta</td>
-                    <td>magenta</td>
-                </tr>
-            </table>
+<input type="text" id="ketikkan" onkeyup="fungsicariTabel()" placeholder="cari nama..">
+<table id="caritabel" class="tabel-magenta">
+    <tr>
+        <th>Nama</th>
+        <th>Class</th>
+    </tr>
+    <tr>
+        <td>Hijau</td>
+        <td>hijau</td>
+    </tr>
+    <tr>
+        <td>Merah</td>
+        <td>merah</td>
+    </tr>
+    <tr>
+        <td>Magenta</td>
+        <td>magenta</td>
+    </tr>
+</table>
 ```
 # [Lanjutkan Dokumentasi atau Tutorial](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
 
