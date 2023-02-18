@@ -15,45 +15,49 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web dan W
 - [Creators](#creators)
 - [Thanks](#thanks)
 # Download
-## install offline di proyek 
+## install offline di proyek
 ### Terminal, Git, CMD, Termux :
 ```text
 git clone https://github.com/nelsenpro/frame.git
 ```
-#### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
-#### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
-## NPM - Node Package Manager
+### via NPM; Framecss versi 3.1.23
 ```text
 npm i framecss3
 ```
-## atau Koneksikan Framecss Online
+### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
+### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
+## atau Koneksikan Framecss versi 2.1.23 Alpha Online
 ```html
 <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
 <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 ```
-## Deskripsi 
+## Online via CDN versi 1.1.23 Alpha
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/framecss/data/frame.css" type="text/css" media="all" />
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/framecss/data/frame.js" type="text/javascript" charset="utf-8"></script>
+```
+
+## Deskripsi
 | Nama | Deskripsi |
 | --- | --- |
-| Versi | 1.1.23 Alpha ; 2.1.23 Alpha| 
+| Versi Alpha | 1.1.23; 2.1.23; 3.1.23|
 | Lisensi | GNU GPL 3 |
 # Dokumentasi
-## Struktur Framecss 
-  ```text
-framecss-2.alpha/
+## Struktur Framecss
+```text
+framecss/
 ├── data/
 │ ├── animate.css
-│ ├── base.css
+│ ├── files.css
 │ ├── fonts/
 │ │
 │ │
-│ ├── frame.css
-│ ├── frame.js
-│ ├── gambar/
+│ ├── frame.min.css
+│ ├── frame.min.s
+│ ├
 │ └── normalize.css
 ├── index.html
-├── modif.css
-└── modif.js
-  ```
+```
 ## Template Standar::Framecss
 ### Float Layout
 ```html
@@ -63,18 +67,18 @@ framecss-2.alpha/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <!-- awal koneksi framecss -->
+    <!-- awal koneksi framecss -->
     <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-            <!-- akhir koneksi framecss -->
+    <!-- akhir koneksi framecss -->
     <title>Frame-CSS.1.Alpha</title>
 </head>
 <body>
     <div>
         <!-- bagian navbar-->
         <div class="" id="">
-        <!-- akhir navbar-->
-        
-        <!-- bagian header, jumbotron- blok-->
+            <!-- akhir navbar-->
+
+            <!-- bagian header, jumbotron- blok-->
         </div>
         <div class="">
             <h1 class="">Halo Dunia</h1>
@@ -82,37 +86,37 @@ framecss-2.alpha/
                 ........
             </p>
         </div>
-         <!-- akhir blok, jumbotron-->
-         
-         <!-- isi konten 1-->
+        <!-- akhir blok, jumbotron-->
+
+        <!-- isi konten 1-->
         <div class="baris">
-                <div class="utama samping">
-                    <h2 class=""></h2>
-                    <p></p>
-                    <h2 class=""></h2>
-                    <p></p>
-                </div>
-             <!-- akhir konten 1-->
-             
-             <!-- isi konten 2-->
-                <div class="utama tengah">
-                    <h2 class=""></h2>
-                    <p></p>
-                    <h2 class=""></h2>
-                    <p></p>
-                </div>
-             <!-- akhir konten 2-->
-             
-             <!-- awal footer-->
+            <div class="utama samping">
+                <h2 class=""></h2>
+                <p></p>
+                <h2 class=""></h2>
+                <p></p>
+            </div>
+            <!-- akhir konten 1-->
+
+            <!-- isi konten 2-->
+            <div class="utama tengah">
+                <h2 class=""></h2>
+                <p></p>
+                <h2 class=""></h2>
+                <p></p>
+            </div>
+            <!-- akhir konten 2-->
+
+            <!-- awal footer-->
         </div>
         <div class="kaki">
             <p class=""></p>
         </div>
-           <!-- akhir footer-->
+        <!-- akhir footer-->
     </div>
-        <!-- koneksi ke JavaScript-->
-     <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
-          <!-- akhir koneksi JavaScript-->
+    <!-- koneksi ke JavaScript-->
+    <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+    <!-- akhir koneksi JavaScript-->
 </body>
 </html>
 ```
@@ -122,32 +126,32 @@ framecss-2.alpha/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
+<title>Document</title>
 </head>
 <body>
-    <div class="framecss-grid2">
-        <div class="kepala">
-            <h2>Kepala</h2>
-        </div>
+<div class="framecss-grid2">
+<div class="kepala">
+<h2>Kepala</h2>
+</div>
 
-        <div class="badan-kiri">
-            Badan Kiri
-        </div>
-        <div class="badan-tengah">
-            Badan Tengah
-        </div>
+<div class="badan-kiri">
+Badan Kiri
+</div>
+<div class="badan-tengah">
+Badan Tengah
+</div>
 
-        <div class="kaki">
-            <p>
-                Kaki
-            </p>
-        </div>
-    </div>
- <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+<div class="kaki">
+<p>
+Kaki
+</p>
+</div>
+</div>
+<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
 ```
@@ -156,70 +160,70 @@ framecss-2.alpha/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-    <title>framecss</title>
+<title>framecss</title>
 </head>
 <body class="putih framecss">
-    <div class="framecss-grid">
-       <div class="kepala">
-           <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
-           <small class="hitam">
-               versi <i>2.1.23</i> <b>Alpha</b> 
-           </small>
-       </div>
-       <div class="badan-kiri lbs-hijau">
-           <div class="">
-               <h2 class="">badan samping</h2>
-           </div>
-       </div>
-       <div class="badan-tengah lbs-oren">
-           <div class="">
-               <h2 class="">badan tengah</h2>
-           </div>
-       </div>
-       <div class="badan-kanan lbs-merah">
-           <div class="">
-               <h2 class="">badan kanan</h2>
-           </div>
-       </div>
-       <div class="kaki">
-           <h2 class="hitam">Kaki</h2>
-       </div>
-    </div>
- <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
+<div class="framecss-grid">
+<div class="kepala">
+<h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
+<small class="hitam">
+versi <i>2.1.23</i> <b>Alpha</b>
+</small>
+</div>
+<div class="badan-kiri lbs-hijau">
+<div class="">
+<h2 class="">badan samping</h2>
+</div>
+</div>
+<div class="badan-tengah lbs-oren">
+<div class="">
+<h2 class="">badan tengah</h2>
+</div>
+</div>
+<div class="badan-kanan lbs-merah">
+<div class="">
+<h2 class="">badan kanan</h2>
+</div>
+</div>
+<div class="kaki">
+<h2 class="hitam">Kaki</h2>
+</div>
+</div>
+<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
 ```
 ## Membangun Header
-### Header Navigasi 
+### Header Navigasi
 ```html
 <div class="nav" id="nav">
-    <a href="#home" class="active">Beranda</a>
-    <a href="#berita">Berita</a>
-    <a href="#contact">Hubungi</a>
-    <a href="#about">Tanya</a>
-    <a href="#unduh">Unduh</a>
-    <a href="#contoh">Contoh</a>
-    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+<a href="#home" class="active">Beranda</a>
+<a href="#berita">Berita</a>
+<a href="#contact">Hubungi</a>
+<a href="#about">Tanya</a>
+<a href="#unduh">Unduh</a>
+<a href="#contoh">Contoh</a>
+<a href="javascript:void(0);" class="icon" onclick="navFunction()">
+<i class="fa fa-bars"></i>
+</a>
 </div>
 ```
 ```html
 <div class="nav-hijau" id="nav-hijau">
-    <a href="#home" class="active">Beranda</a>
-    <a href="#news">Berita</a>
-    <a href="#contact">Hubungi</a>
-    <a href="#about">Tanya</a>
-    <a href="#unduh">Unduh</a>
-    <a href="#contoh">Contoh</a>
-    <a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+<a href="#home" class="active">Beranda</a>
+<a href="#news">Berita</a>
+<a href="#contact">Hubungi</a>
+<a href="#about">Tanya</a>
+<a href="#unduh">Unduh</a>
+<a href="#contoh">Contoh</a>
+<a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
+<i class="fa fa-bars"></i>
+</a>
 </div>
 ```
 ### Header Panel
@@ -227,42 +231,42 @@ framecss-2.alpha/
 ### Panel Default
 ```html
 <div class="kepala">
-    <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
-    <small class="hitam">
-        versi <i>2.1.23</i> <b>Alpha</b>
-    </small>
+<h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
+<small class="hitam">
+versi <i>2.1.23</i> <b>Alpha</b>
+</small>
 </div>
 ```
-### Panel modifikasi Latar 
+### Panel modifikasi Latar
 ```html
 <div class="nav-ping" id="nav-ping">
-    <a href="#home" class="active">Beranda</a>
-    <a href="#news">Berita</a>
-    <a href="#contact">Hubungi</a>
-    <a href="#about">Tanya</a>
-    <a href="#unduh">Unduh</a>
-    <a href="#contoh">Contoh</a>
-    <a href="javascript:void(0);" class="icon" onclick="pingFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+<a href="#home" class="active">Beranda</a>
+<a href="#news">Berita</a>
+<a href="#contact">Hubungi</a>
+<a href="#about">Tanya</a>
+<a href="#unduh">Unduh</a>
+<a href="#contoh">Contoh</a>
+<a href="javascript:void(0);" class="icon" onclick="pingFunction()">
+<i class="fa fa-bars"></i>
+</a>
 </div>
 ```
-### Panel modifikasi Latar Animasi 
+### Panel modifikasi Latar Animasi
 ```html
 <div class="nav-kuning animasi-latar" id="nav-kuning">
-    <a href="#home" class="active">Beranda</a>
-    <a href="#berita">Berita</a>
-    <a href="#contact">Hubungi</a>
-    <a href="#about">Tanya</a>
-    <a href="#unduh">Unduh</a>
-    <a href="#contoh">Contoh</a>
-    <a href="javascript:void(0);" class="icon" onclick="kuningFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+<a href="#home" class="active">Beranda</a>
+<a href="#berita">Berita</a>
+<a href="#contact">Hubungi</a>
+<a href="#about">Tanya</a>
+<a href="#unduh">Unduh</a>
+<a href="#contoh">Contoh</a>
+<a href="javascript:void(0);" class="icon" onclick="kuningFunction()">
+<i class="fa fa-bars"></i>
+</a>
 </div>
 ```
 ## Membangun Tombol
-### tombol default 
+### tombol default
 ```html
 <button class="tombol" type="submit">Tombol</button>
 ```
@@ -276,63 +280,63 @@ framecss-2.alpha/
 ### tombol grup : Float pakai section, grid pakai div
 ```html
 <section class="grup-tmb" style="width:">
-    <button class="r12px frame expand" judul="tombol ini radius 12px" onclick="" style="width:">AcdEF</button>
-    <button class="u20px frame swing" judul="tombol ini radius 20px" onclick="" style="width:">BcDefG</button>
-    <button class="u10px" onclick="" style="width:">Cdefg</button>
-    <button class="r8px" onclick="" style="width:">DefGh</button>
-    <button class="u1px" onclick="" style="width:">EfGhij</button>
+<button class="r12px frame expand" judul="tombol ini radius 12px" onclick="" style="width:">AcdEF</button>
+<button class="u20px frame swing" judul="tombol ini radius 20px" onclick="" style="width:">BcDefG</button>
+<button class="u10px" onclick="" style="width:">Cdefg</button>
+<button class="r8px" onclick="" style="width:">DefGh</button>
+<button class="u1px" onclick="" style="width:">EfGhij</button>
 
 </section>
 <br />
 <section class="grup-tmb-v" style="width:auto">
-    <p>
-        grup vertikal : animasi latar berubah
-    </p>
-    <button class="frame fade" judul="ukuran 50%" onclick="" style="width:50%">Abcde</button>
-    <button onclick="" style="width:50%">BcDefg</button>
-    <button class="frame aframe" onclick="" style="width:50%">CdEfgh
-        <span class="teks">tombol ini ukuran 50%</span></button>
-    <button onclick="" style="width:90%">DefGHi</button>
-    <button onclick="" style="width:40%">EFgHI</button>
-    <button onclick="" style="width:15%">F</button>
-    <button onclick="" style="width:60%">G</button>
-    <br />
+<p>
+grup vertikal : animasi latar berubah
+</p>
+<button class="frame fade" judul="ukuran 50%" onclick="" style="width:50%">Abcde</button>
+<button onclick="" style="width:50%">BcDefg</button>
+<button class="frame aframe" onclick="" style="width:50%">CdEfgh
+<span class="teks">tombol ini ukuran 50%</span></button>
+<button onclick="" style="width:90%">DefGHi</button>
+<button onclick="" style="width:40%">EFgHI</button>
+<button onclick="" style="width:15%">F</button>
+<button onclick="" style="width:60%">G</button>
+<br />
 </section>
 ```
 ## Membangun Tabel
-### tabel default 
+### tabel default
 ```html
 <table class="tabel ta l80">
-    <tr>
-        <th>Nama</th>
-        <th>Class</th>
-    </tr>
-    <tr>
-        <td>Hijau</td>
-        <td>hijau</td>
-    </tr>
+<tr>
+<th>Nama</th>
+<th>Class</th>
+</tr>
+<tr>
+<td>Hijau</td>
+<td>hijau</td>
+</tr>
 </table>
 ```
 ### tabel modifikasi
 ```html
 <input type="text" id="ketikkan" onkeyup="fungsicariTabel()" placeholder="cari nama..">
 <table id="caritabel" class="tabel-magenta">
-    <tr>
-        <th>Nama</th>
-        <th>Class</th>
-    </tr>
-    <tr>
-        <td>Hijau</td>
-        <td>hijau</td>
-    </tr>
-    <tr>
-        <td>Merah</td>
-        <td>merah</td>
-    </tr>
-    <tr>
-        <td>Magenta</td>
-        <td>magenta</td>
-    </tr>
+<tr>
+<th>Nama</th>
+<th>Class</th>
+</tr>
+<tr>
+<td>Hijau</td>
+<td>hijau</td>
+</tr>
+<tr>
+<td>Merah</td>
+<td>merah</td>
+</tr>
+<tr>
+<td>Magenta</td>
+<td>magenta</td>
+</tr>
 </table>
 ```
 # [Lanjutkan Dokumentasi atau Tutorial](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
@@ -343,9 +347,3 @@ framecss-2.alpha/
 
 ## Thanks
 [Normalize.css](https://necolas.github.io/normalize.css/) | [Animate.css](https://animate.style/) | [Fontsawesome](https://fontawesome.com/) | [StaticSave](https://staticsave.com/) | [W3schools](https://www.w3schools.com/) |
-
-
-
-
-
- 
