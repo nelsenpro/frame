@@ -26,6 +26,7 @@ npm i framecss3
 ```
 ### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
 ### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
+### unduh versi 3.1.23 via [Gitlab](https://gitlab.com/nelsenpro/frame/-/archive/main/frame-main.zip)
 ## atau Koneksikan Framecss versi 2.1.23 Alpha Online
 ```html
 <!-- CSS -->
@@ -71,10 +72,11 @@ framecss/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- awal koneksi framecss -->
-    <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-    <!-- akhir koneksi framecss -->
-    <title>Frame-CSS.1.Alpha</title>
+    <!--CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+<!--JS -->
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
+    <title>Frame-CSS.3.Alpha</title>
 </head>
 <body>
     <div>
@@ -118,9 +120,6 @@ framecss/
         </div>
         <!-- akhir footer-->
     </div>
-    <!-- koneksi ke JavaScript-->
-    <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
-    <!-- akhir koneksi JavaScript-->
 </body>
 </html>
 ```
@@ -133,8 +132,11 @@ framecss/
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-<title>Document</title>
+<!--CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+<!--JS -->
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
+<title>Framecss 3</title>
 </head>
 <body>
 <div class="framecss-grid2">
@@ -143,10 +145,10 @@ framecss/
 </div>
 
 <div class="badan-kiri">
-Badan Kiri
+Konten Kiri
 </div>
 <div class="badan-tengah">
-Badan Tengah
+Konten Tengah
 </div>
 
 <div class="kaki">
@@ -155,7 +157,6 @@ Kaki
 </p>
 </div>
 </div>
-<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
 ```
@@ -168,7 +169,10 @@ Kaki
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
+<!--CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+<!--JS -->
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
 <title>framecss</title>
 </head>
 <body class="putih framecss">
@@ -176,29 +180,28 @@ Kaki
 <div class="kepala">
 <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
 <small class="hitam">
-versi <i>2.1.23</i> <b>Alpha</b>
+versi <i>3.1.23</i> <b>Alpha</b>
 </small>
 </div>
 <div class="badan-kiri lbs-hijau">
 <div class="">
-<h2 class="">badan samping</h2>
+<h2 class="">konten samping</h2>
 </div>
 </div>
 <div class="badan-tengah lbs-oren">
 <div class="">
-<h2 class="">badan tengah</h2>
+<h2 class="">konten tengah</h2>
 </div>
 </div>
 <div class="badan-kanan lbs-merah">
 <div class="">
-<h2 class="">badan kanan</h2>
+<h2 class="">konten kanan</h2>
 </div>
 </div>
 <div class="kaki">
-<h2 class="hitam">Kaki</h2>
+<h2 class="hitam">Footer</h2>
 </div>
 </div>
-<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
 ```
@@ -208,8 +211,8 @@ versi <i>2.1.23</i> <b>Alpha</b>
 <div class="nav" id="nav">
 <a href="#home" class="active">Beranda</a>
 <a href="#berita">Berita</a>
-<a href="#contact">Hubungi</a>
-<a href="#about">Tanya</a>
+<a href="#hubungi">Hubungi</a>
+<a href="#tanya">Tanya</a>
 <a href="#unduh">Unduh</a>
 <a href="#contoh">Contoh</a>
 <a href="javascript:void(0);" class="icon" onclick="navFunction()">
@@ -221,8 +224,8 @@ versi <i>2.1.23</i> <b>Alpha</b>
 <div class="nav-hijau" id="nav-hijau">
 <a href="#home" class="active">Beranda</a>
 <a href="#news">Berita</a>
-<a href="#contact">Hubungi</a>
-<a href="#about">Tanya</a>
+<a href="#hubungi">Hubungi</a>
+<a href="#tanya">Tanya</a>
 <a href="#unduh">Unduh</a>
 <a href="#contoh">Contoh</a>
 <a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
@@ -237,7 +240,7 @@ versi <i>2.1.23</i> <b>Alpha</b>
 <div class="kepala">
 <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
 <small class="hitam">
-versi <i>2.1.23</i> <b>Alpha</b>
+versi <i>3.1.23</i> <b>Alpha</b>
 </small>
 </div>
 ```
@@ -245,9 +248,9 @@ versi <i>2.1.23</i> <b>Alpha</b>
 ```html
 <div class="nav-ping" id="nav-ping">
 <a href="#home" class="active">Beranda</a>
-<a href="#news">Berita</a>
-<a href="#contact">Hubungi</a>
-<a href="#about">Tanya</a>
+<a href="#berita">Berita</a>
+<a href="#hubungi">Hubungi</a>
+<a href="#tanya">Tanya</a>
 <a href="#unduh">Unduh</a>
 <a href="#contoh">Contoh</a>
 <a href="javascript:void(0);" class="icon" onclick="pingFunction()">
@@ -260,8 +263,8 @@ versi <i>2.1.23</i> <b>Alpha</b>
 <div class="nav-kuning animasi-latar" id="nav-kuning">
 <a href="#home" class="active">Beranda</a>
 <a href="#berita">Berita</a>
-<a href="#contact">Hubungi</a>
-<a href="#about">Tanya</a>
+<a href="#hubungi">Hubungi</a>
+<a href="#tanya">Tanya</a>
 <a href="#unduh">Unduh</a>
 <a href="#contoh">Contoh</a>
 <a href="javascript:void(0);" class="icon" onclick="kuningFunction()">
