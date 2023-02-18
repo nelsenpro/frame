@@ -28,13 +28,17 @@ npm i framecss3
 ### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
 ## atau Koneksikan Framecss versi 2.1.23 Alpha Online
 ```html
+<!-- CSS -->
 <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
+<!-- JS -->
 <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 ```
-## Online via CDN versi 1.1.23 Alpha
+## Online via CDN versi 3.1.23
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/framecss/data/frame.css" type="text/css" media="all" />
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/framecss/data/frame.js" type="text/javascript" charset="utf-8"></script>
+<!--CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+<!--JS -->
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 ## Deskripsi
