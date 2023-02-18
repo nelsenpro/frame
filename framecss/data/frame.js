@@ -117,7 +117,7 @@ function nav2Function() {
         x.className = "nav2";
     }
 };
-
+window.alert('welcome');
 /*
 modifikasi JavaScript sesuai keinginan mu
 *animasi
