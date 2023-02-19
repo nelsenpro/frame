@@ -37,9 +37,9 @@ npm i framecss3
 ## Online via CDN versi 3.1.23
 ```html
 <!--CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
 <!--JS -->
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 ## Deskripsi
@@ -136,9 +136,9 @@ framecss/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
     <!--JS -->
-    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
     <title>Framecss 3</title>
 </head>
 <body>
@@ -173,9 +173,9 @@ framecss/
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
     <!--JS -->
-    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/frame.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
     <title>framecss</title>
 </head>
 <body class="putih framecss">
