@@ -12,4 +12,4 @@ npm i framecss3
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
 ```
 ### Gitlab ~
-[Gitlab](https://gitlab.com/nelsenpro/frame/-/archive/main/frame-main.zip)
+[Unduh!](https://gitlab.com/nelsenpro/frame/-/archive/main/frame-main.zip)
