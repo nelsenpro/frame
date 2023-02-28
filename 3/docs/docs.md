@@ -691,4 +691,4 @@ tambahkan javascript akordion
 </script>
 ```
 # Grid Content 
-## janjutkan tutorial >>
+## [janjutkan tutorial](https://github.com/nelsenpro/frame/blob/main/3/docs/grid.md)
