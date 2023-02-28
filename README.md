@@ -14,27 +14,14 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web
 - [Dokumentasi Lainnya](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
 - [Creators](#creators)
 - [Thanks](#thanks)
-# Download
-## install offline di proyek
-### Terminal, Git, CMD, Termux :
-```text
-git clone https://github.com/nelsenpro/frame.git
-```
-### via NPM; Framecss versi 3.1.23
+## install :
+### NPM
 ```text
 npm i framecss3
 ```
-### unduh versi 1.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
-### unduh Versi 2.1.23 Alpha via [Github](https://github.com/nelsenpro/frame/raw/main/framecss/2.1.23.Alpha/framecss-2.alpha.zip)
-### unduh versi 3.1.23 via [Gitlab](https://gitlab.com/nelsenpro/frame/-/archive/main/frame-main.zip)
-## Online via SS versi 2.1.23
-```html
-<!-- CSS -->
-<link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-<!-- JS -->
-<script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
-```
-## Online via CDN versi 3.1.23
+### Download 
+[Gitlab](https://gitlab.com/nelsenpro/frame/-/archive/main/frame-main.zip)
+## CDN
 ```html
 <!--CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
