@@ -38,31 +38,218 @@ npm i framecss3
 ## Struktur Framecss
 ```text
 framecss/
-├── data/
-│ ├── animate.css
-│ ├── files.css
-│ ├── fonts/
-│ │
-│ │
-│ ├── frame.min.css
-│ ├── frame.min.s
-│ ├
-│ └── normalize.css
-├── index.html
+|── data/
+  ├── animate.css
+  |
+  ├── fonts/all.min.css
+  │
+  │
+  ├── f.min.css
+  ├── f.min.js
+  |
+  └── normalize.css
+
 ```
-## Template Standar::Framecss
+## Template Cepat ::Framecss
 ### Float Layout
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
+    <!---
+            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
+            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
+        -->
+    <title>Framecss 3</title>
+</head>
+<body>
+    <style type="text/css" media="all">
+:root {
+        --magenta: #d80073;
+    }
+        * {
+            color: var(--white);
+        }
+        .bg-magenta {
+            background-color: var(--magenta);
+        }
+    </style>
+    <div class="header bg-merah">
+        <h1 class="">Halo Dunia</h1>
+        <p>
+            Framecss 3.1.23
+        </p>
+    </div>
+    <!-- akhir blok, jumbotron-->
 
+    <!-- isi konten 1-->
+    <div class="baris">
+        <div class="utama samping bg-kuning">
+            <h2 class="">Konten 1 lebar 30%</h2>
+        </div>
+        <!-- akhir konten 1-->
+
+        <!-- isi konten 2-->
+        <div class="utama tengah bg-magenta">
+            <h2 class="">Konten 2 lebar 65%, kamu dapat menggunakan grid 2 untuk lebar 100%</h2>
+        </div>
+        <!-- akhir konten 2-->
+
+        <!-- awal footer-->
+    </div>
+    <div class="footer bg-hijau">
+        <p class="">
+            Footer
+        </p>
+    </div>
+    <!-- akhir footer-->
+
+</body>
+</html>
 ```
 ### Grid Layout
+#### Grid 1 items
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--
+            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
+            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
+            -->
+    <title>grid1</title>
+</head>
+<body>
+    <style type="text/css" media="all">
+        * {
+            color: var(--white);
+        }
+    </style>
+    <div class="header lbs-indigo">
+        header
+    </div>
+    <div class="framecss-grid1">
+        <div class="konten bg-hijau">
+            konten 1 bg-hijau
+        </div>
+        <div class="konten bg-merah">
+            konten 2 bg-merah
+        </div>
+        <div class="konten bg-kuning bs-hitam">
+            konten 3 bs-hitam
+        </div>
+        <div class="konten lbs-biru">
+            konten 4 lbs-biru
+        </div>
+        <div class="konten lbs-ungu">
+            konten 5 lbs-ungu
+        </div>
+        <div class="konten lbs-oren bs-hitam">
+            konten 6 bs-hitam
+        </div>
+    </div>
+    <div class="footer lbs-cyan">
+        footer
+    </div>
+</body>
+</html>
+```
 #### Grid 2 items
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--
+            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
+            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
+            -->
+    <title>grid2</title>
+</head>
+<body>
+    <div class="framecss-grid2">
+        <div class="header lbs-kuning putih">
+            <h2>header</h2>
+        </div>
 
+        <div class="konten-kiri lbs-ungu putih">
+            konten Kiri, teks putih
+        </div>
+        <div class="konten-tengah bg-hijau putih">
+            konten Tengah, teks putih
+        </div>
+
+        <div class="footer bg-merah putih">
+            <p>
+                Kaki
+            </p>
+        </div>
+    </div>
+</body>
+</html>
 ```
 #### Grid 3 items
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--
+            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
+            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
+            -->
+    <title>grid3</title>
+</head>
+<body>
+    <div class="framecss-grid3">
+        <div class="header">
+            <h2>header</h2>
+        </div>
 
+        <div class="konten-kiri">
+            konten Kiri
+        </div>
+        <div class="konten-tengah">
+            konten Tengah
+        </div>
+        <div class="konten-kanan">
+            konten kanan
+        </div>
+
+        <div class="footer">
+            <p>
+                footer
+            </p>
+        </div>
+    </div>
+</body>
+</html>
 ```
 ## Membangun Header
 ### Header Navigasi
