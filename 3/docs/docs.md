@@ -17,7 +17,7 @@ contoh: bg-hijau, bg-merah, bg-biru, bg-oren, bg-kuning....dll.
 ```txt
 pada warna fonts 2 (tambahkan l)..
 contoh: lbs-biru, lbs-oren, lbs-indigo, lbs-ungu, lbs-ping, lbs-merah...dll.
-``
+```
 ## animasi
 ### animasi Framecss modifikasi 
 ```txt
