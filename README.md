@@ -391,7 +391,7 @@ framecss/
     </tr>
 </table>
 ```
-## [Lanjutkan Dokumentasi atau Tutorial](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
+## [Lanjutkan Dokumentasi atau Tutorial](https://github.com/nelsenpro/frame/blob/main/3/docs/docs.md)
 
 ## Creators
 [*Nelsen Niko*](https://wa.me/6285328736706/)
