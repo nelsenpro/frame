@@ -15,18 +15,18 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web
 - [Creators](#creators)
 - [Thanks](#thanks)
 ## install :
-### NPM
+### NPM - old version
 ```text
 npm i framecss3
 ```
-### Download 
+### Download - old version
 [Gitlab](https://gitlab.com/nelsenpro/frame/-/archive/main/frame-main.zip)
-## CDN
+## CDN - new update
 ```html
 <!--CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
 <!--JS -->
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 ## Deskripsi
@@ -53,147 +53,16 @@ framecss/
 ## Template Standar::Framecss
 ### Float Layout
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://static.staticsave.com/edata/frame.css" type="text/css" media="all" />
-    <!-- JS -->
-    <script src="https://static.staticsave.com/edata/frame.js" type="text/javascript" charset="utf-8"></script>
 
-    <title>Frame-CSS.2.Alpha</title>
-</head>
-<body>
-    <div>
-        <!-- bagian navbar-->
-        <div class="" id="">
-            <!-- akhir navbar-->
-
-            <!-- bagian header, jumbotron- blok-->
-        </div>
-        <div class="blok-ping">
-            <h1 class="">Halo Dunia</h1>
-            <p>
-                Framecss 2.1.23
-            </p>
-        </div>
-        <!-- akhir blok, jumbotron-->
-
-        <!-- isi konten 1-->
-        <div class="baris">
-            <div class="utama samping">
-                <h2 class="">Konten Samping</h2>
-                <p>
-                    ini adalah konten samping dan atas
-                </p>
-            </div>
-            <!-- akhir konten 1-->
-
-            <!-- isi konten 2-->
-            <div class="utama tengah">
-                <h2 class="">Konten Utama</h2>
-                <p>
-                    ini adalah konten utama
-                </p>
-            </div>
-            <!-- akhir konten 2-->
-
-            <!-- awal footer-->
-        </div>
-        <div class="kaki lbs-ping">
-            <p class="">
-                Footer
-            </p>
-        </div>
-        <!-- akhir footer-->
-    </div>
-</body>
-</html>
 ```
 ### Grid Layout
 #### Grid 2 items
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
-    <!--JS -->
-    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
-    <title>Framecss 3</title>
-</head>
-<body>
-    <div class="framecss-grid2">
-        <div class="kepala">
-            <h2>Kepala</h2>
-        </div>
 
-        <div class="badan-kiri">
-            Konten Kiri
-        </div>
-        <div class="badan-tengah">
-            Konten Tengah
-        </div>
-
-        <div class="kaki">
-            <p>
-                Kaki
-            </p>
-        </div>
-    </div>
-</body>
-</html>
 ```
 #### Grid 3 items
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.css" type="text/css" media="all" />
-    <!--JS -->
-    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.js" type="text/javascript" charset="utf-8"></script>
-    <title>framecss</title>
-</head>
-<body class="putih framecss">
-    <div class="framecss-grid">
-        <div class="kepala">
-            <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
-            <small class="hitam">
-                versi <i>3.1.23</i> <b>Alpha</b>
-            </small>
-        </div>
-        <div class="badan-kiri lbs-hijau">
-            <div class="">
-                <h2 class="">konten samping</h2>
-            </div>
-        </div>
-        <div class="badan-tengah lbs-oren">
-            <div class="">
-                <h2 class="">konten tengah</h2>
-            </div>
-        </div>
-        <div class="badan-kanan lbs-merah">
-            <div class="">
-                <h2 class="">konten kanan</h2>
-            </div>
-        </div>
-        <div class="kaki">
-            <h2 class="hitam">Footer</h2>
-        </div>
-    </div>
-</body>
-</html>
 ```
 ## Membangun Header
 ### Header Navigasi
@@ -227,10 +96,10 @@ framecss/
 ## Membangun Header Panel
 ### Panel Default
 ```html
-<div class="kepala">
+<div class="header">
     <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
     <small class="hitam">
-        versi <i>3.1.23</i> <b>Alpha</b>
+        versi <i>3.1.23</i> <b>::</b>
     </small>
 </div>
 ```
