@@ -2,7 +2,7 @@
 # Selamat Datang di ::Framecss Framework CSS
 Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web
 ## Daftar isi :
-- [Persiapan](#download)
+- [Persiapan](#install)
 - [Dokumentasi](#dokumentasi)
 - [Struktur Framecss](#struktur-framecss)
 - [Layout](#float-layout)
@@ -11,7 +11,7 @@ Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web
 - [Bikin Panel](#header-panel)
 - [Bikin Tombol](#membangun-tombol)
 - [Bikin Tabel](#membangun-tabel)
-- [Dokumentasi Lainnya](https://github.com/nelsenpro/frame/blob/main/framecss/2.1.23.Alpha/dokumentasi.md)
+- [Dokumentasi Lainnya](https://github.com/nelsenpro/frame/blob/main/3/docs/docs.md)
 - [Creators](#creators)
 - [Thanks](#thanks)
 ## install :
