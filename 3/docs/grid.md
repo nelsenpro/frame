@@ -143,12 +143,12 @@
         </p>
 
     </div>
-
- 
-
-
 </div>
-```
+ ```
+
+
+
+
 ## grid foto - galeri
 ```html
 <h3 class="">Foto galery</h3>
