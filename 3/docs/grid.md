@@ -144,29 +144,8 @@
 
     </div>
 
-    <div class="f-grid4col">
+ 
 
-        <h3 class="">Grid 4 col</h3>
-
-        <p>
-
-            Grid konten
-
-        </p>
-
-    </div>
-
-    <div class="f-grid4col">
-
-        <h3 class="">Grid 4 col</h3>
-
-        <p>
-
-            Grid konten
-
-        </p>
-
-    </div>
 
 </div>
 ```
