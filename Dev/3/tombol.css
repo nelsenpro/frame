@@ -1,0 +1,499 @@
+
+.button, button {
+    /*color: var(--black);
+    background-color: var(--white);*/
+    border: ;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 2s;
+    margin: 2px;
+}
+.tmbl,
+.btn {
+    border: 2px solid var(--headerF);
+    background-color: var(--white);
+    color: var(--black);
+    padding: 8px 16px;
+    /*font-size: 16px;*/
+    cursor: pointer;
+    transition-duration: 2s;
+    margin: 2px;
+}
+.success {
+    border-color: var(--green);
+    color: var(--green);
+}
+.success:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+.danger {
+    border-color: var(--red);
+    color: red;
+}
+.danger:hover {
+    background: var(--red);
+    color: white;
+}
+.info {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+.info:hover {
+    background: var(--blue);
+    color: var(--white);
+}
+.warning {
+    border-color: var(--orange);
+    color: var(--orange);
+}
+.warning:hover {
+    background: var(--orange);
+    color: var(--white);
+}
+.button-lime,
+.tombol-lime {
+    color: var(--white);
+    background-color: var(--lime);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-green,
+.tombol-hijau {
+    color: var(--white);
+    background-color: var(--green);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-emerald,
+.tombol-emerald {
+    color: #fff;
+    background-color: #008a00;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-teal,
+.tombol-teal {
+    color: #fff;
+    background-color: #00aba9;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-cyan,
+.tombol-cyan {
+    color: #fff;
+    background-color: #1ba1e2;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-blue,
+.tombol-biru {
+    color: #fff;
+    background-color: #3e65ff;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-cobalt,
+.tombol-cobalt {
+    color: #fff;
+    background-color: #0050ef;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-indigo,
+.tombol-indigo {
+    color: #fff;
+    background-color: #6a00ff;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.tombol {
+    color: #fff;
+    background-color: #aa00ff;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-pink,
+.tombol-ping {
+    color: #fff;
+    background-color: #f472d0;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-magenta,
+.tombol-magenta {
+    color: #fff;
+    background-color: #d80073;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-crimson,
+.tombol-crimson {
+    color: #fff;
+    background-color: #a20025;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-red,
+.tombol-merah {
+    color: #fff;
+    background-color: #e51400;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-orange,
+.tombol-oren {
+    color: #fff;
+    background-color: #fa6800;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-amber,
+.tombol-amber {
+    color: #fff;
+    background-color: #f0a30a;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-yellow,
+.tombol-kuning {
+    color: #fff;
+    background-color: #e3c800;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-brown,
+.tombol-coklat {
+    color: #fff;
+    background-color: #825a2c;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-alive,
+.tombol-olive {
+    color: #fff;
+    background-color: #6d8764;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-steel,
+.tombol-steel {
+    color: #fff;
+    background-color: #647687;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-mauve,
+.tombol-mauve {
+    color: #fff;
+    background-color: #76608a;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-taupe,
+.tombol-taupe {
+    color: #fff;
+    background-color: #87794e;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+.button-sienna,
+.tombol-sienna {
+    color: #fff;
+    background-color: #a0522d;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.9s;
+    margin: 2px;
+}
+
+.bayang:hover {
+    background-color: #ceced2;
+    color: #000;
+}
+.bayang-merah:hover {
+    background-color: #e51400;
+    color: #fff;
+}
+.bayang-hijau:hover {
+    background-color: #60a917;
+    color: #fff;
+}
+
+
+
+.tmb button {
+    background-color: var(--bs-biru);
+    /* hijau*/
+    border: 1px solid #fff;
+    /* border */
+    color: var(--bs-putih);
+    padding: 5px 10px;
+    cursor: pointer;
+    float: left;
+}
+.tmb button:hover {
+    background-color: var(--bs-ungu);
+    /*transition-duration: 3s;*/
+}
+.tmb button:active {
+    background-color: var(--birudoger);
+    box-shadow: 0 6px magenta;
+    transform: translateY(10px);
+    /*transform: translateX(10px);*/
+}
+
+.grup-tmb button {
+    background-color: var(--bs-biru);
+    /* hijau*/
+    border: 1px solid #fff;
+    /* border */
+    color: var(--bs-putih);
+    padding: 5px 10px;
+    cursor: pointer;
+    float: left;
+}
+.grup-tmb:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.grup-tmb button:not(:last-child) {
+    border-right: none;
+}
+.grup-tmb button:hover {
+    background-color: var(--bs-ungu);
+    /*transition-duration: 3s;*/
+}
+.grup-tmb button:active {
+    background-color: var(--birudoger);
+    box-shadow: 0 6px magenta;
+    transform: translateY(10px);
+    /*transform: translateX(10px);*/
+}
+.grup-tmb-v button {
+    background-color: var(--bs-hijau);
+    border: 1px solid #fff;
+    color: var(--bs-putih);
+    padding: 8px 16px;
+    cursor: pointer;
+    width: auto;
+    display: block;
+    height: auto;
+}
+.grup-tmb-v button:not(:last-child) {
+    border-bottom: none;
+}
+.grup-tmb-v button:hover {
+    background-color: var(--bs-merah);
+    transition-duration: 4s;
+}
+.grup-tmb-v button:active {
+    background-color: var(--bs-biru);
+    /* bayangan */
+    box-shadow: 0 6px yellow;
+    /*transform: translateX(30px);
+  transform: translateY(30px);*/
+}

@@ -1,0 +1,105 @@
+.form1 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.form1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+
+.form1 h1 {
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+
+.form1 label {
+    text-align: left;
+    color: #90caf9;
+}
+
+.form1 form input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form1 form button {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color: #2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+
+/* form cari */
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
+.form.cari input[type=text] {
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid white;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+    margin: 10px;
+}
+
+.form.cari button {
+    float: left;
+    font-size: 21px;
+    width: 20%;
+    padding: 11px;
+    background: dodgerblue;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.form.cari button:hover {
+    background: #0b7dda;
+}
+
+.form.cari::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* form cari*/
+
+/* form cari tabel */
+#ketikkan {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+/* form cari tabel*/

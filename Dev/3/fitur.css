@@ -1,0 +1,29 @@
+/*
+button to top, tombol klik ke atas
+*/
+.container-top {
+    display: flex;
+    align-items: flex-end;
+    width: 50px;
+}
+
+.top {
+    position: sticky;
+    bottom: 20px;
+    margin-right: 2px;
+    width: 100%;
+    aspect-ratio: 1;
+    background: #ff8b24;
+    border-radius: 10px;
+}
+.top:before {
+    content: "";
+    position: absolute;
+    inset: 30%;
+    transform: translateY(20%) rotate(-45deg);
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+.top {
+  scroll-behavior: smooth;
+}

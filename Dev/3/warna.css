@@ -1,0 +1,321 @@
+:root {
+    --lime: #a4c400;
+    --green: #60a917;
+    --emerald: #008a00;
+    --teal: #00aba9;
+    --blue: #3e65ff;
+    --white: #fff;
+    --black: #000;
+    --cobalt: #0050ef;
+    --violet: #aa00ff;
+    --pink: #f472d0;
+    --crimson: #a20025;
+    --red: #e51400;
+    --orange: #fa6800;
+    --amber: #f0a30a;
+    --yellow: #e3c800;
+    --brown: #825a2c;
+    --olive: #6d8764;
+    --steel: #647687;
+    --mauve: #76608a;
+    --taupe: #87794e;
+    --sienna: #a0522d;
+    --headerF: #e9ecef;
+    --bs-biru: #007bff;
+    --bs-indigo: #6610f2;
+    --bs-ungu: #6f42c1;
+    --bs-ping: #e83e8c;
+    --bs-merah: #dc3545;
+    --bs-oren: #fd7e14;
+    --bs-kuning: #ffc107;
+    --bs-hijau: #28a745;
+    --bs-teal: #20c997;
+    --bs-cyan: #17a2b8;
+    --bs-putih: #fff;
+    --bs-hitam: #000;
+    --bs-abu: #6c757d;
+    --gelap: #343a40!important;
+    --slateblue: #6a5acd;
+    --birudoger: #1E90FF;
+    --abu: #eee;
+    --magenta:#d80073;
+    --darkblue:#17a2b8;
+    --fbiru:#17a2b8;
+    --fabu:#343a40;
+    --f:#f2f2f2;
+}
+
+/* awal warna windows 8 UI */
+.hijau {
+    color: var(--green);
+}
+.emerald {
+    color: var(--emerald);
+}
+.oren {
+    color: var(--orange);
+}
+.amber {
+    color: var(--amber);
+}
+.kuning {
+    color: var(--yellow);
+}
+.teal {
+    color: var(--teal);
+}
+.biru {
+    color: var(--blue);
+}
+.putih {
+    color: var(--white)!important;
+}
+.hitam {
+    color: var(--black)!important;
+}
+.lime {
+    color: var(--lime);
+}
+.steel {
+    color: var(--steel);
+}
+.cobalt {
+    color: var(--cobalt);
+}
+.ungu {
+    color: var(--violet);
+}
+.ping {
+    color: var(--pink);
+}
+.mauve {
+    color: var(--mauve);
+}
+.taupe {
+    color: var(--taupe);
+}
+.sienna {
+    color: var(--sienna);
+}
+.crimson {
+    color: var(--crimson);
+}
+.merah {
+    color: var(--red);
+}
+.coklat {
+    color: var(--brown);
+}
+.olive {
+    color: var(--olive);
+}
+.magenta {
+    color: var(--magenta);
+}
+/* end color */
+
+/* start background color */
+.abu {
+    background-color: var(--abu)!important;
+}
+.bg-magenta {
+    background-color: var(--magenta);
+}
+.bg-gelap {
+    background-color: var(--gelap);
+}
+.bg-lime {
+    background-color: var(--lime)!important;
+
+}
+.bg-hijau {
+    background-color: var(--green)!important;
+
+}
+.bg-emerald {
+    background-color: var(--emerald)!important;
+
+}
+.bg-teal {
+    background-color: var(--teal)!important;
+
+}
+.bg-biru {
+    background-color: var(--blue)!important;
+
+}
+.bg-cobalt {
+    background-color: var(--cobalt)!important;
+
+}
+.bg-ungu {
+    background-color: var(--violet);
+
+}
+.bg-ping {
+    background-color: var(--pink)!important;
+
+}
+.bg-crimson {
+    background-color: var(--crimson)!important;
+
+}
+.bg-merah {
+    background-color: var(--red)!important;
+
+}
+.bg-oren {
+    background-color: var(--orange)!important;
+
+}
+.bg-amber {
+    background-color: var(--amber)!important;
+
+}
+.bg-kuning {
+    background-color: var(--yellow)!important;
+
+}
+.bg-coklat {
+    background-color: var(--brown)!important;
+
+}
+.bg-olive {
+    background-color: var(--olive)!important;
+
+}
+.bg-steel {
+    background-color: var(--steel)!important;
+
+}
+.bg-mauve {
+    background-color: var(--mauve)!important;
+
+}
+.bg-taupe {
+    background-color: var(--taupe)!important;
+
+}
+.bg-sienna {
+    background-color: var(--sienna)!important;
+
+}
+.bg-dodgerblue {
+    background-color: var(--birudoger);
+}
+
+.bs-biru {
+    color: var(--bs-biru);
+}
+.bs-indigo {
+    color: var(--bs-indigo);
+}
+.bs-ungu {
+    color: var(--bs-ungu);
+}
+.bs-ping {
+    color: var(--bs-ping);
+}
+.bs-merah {
+    color: var(--bs-merah);
+}
+.bs-oren {
+    color: var(--bs-oren);
+}
+.bs-kuning {
+    color: var(--bs-kuning);
+}
+.bs-hijau {
+    color: var(--bs-hijau);
+}
+.bs-teal {
+    color: var(--bs-teal);
+}
+.bs-cyan {
+    color: var(--bs-cyan);
+}
+.bs-putih {
+    color: var(--bs-putih);
+}
+.bs-hitam {
+    color: var(--bs-hitam);
+}
+.bs-abu {
+    color: var(--bs-abu);
+}
+.birudoger {
+    color: var(--birudoger);
+}
+/* akhir modifikasi warna font */
+
+/* awal modifikasi warna latar belakang*/
+.lbs-biru {
+    background-color: var(--bs-biru);
+}
+.lbs-indigo {
+    background-color: var(--bs-indigo);
+}
+.lbs-ungu {
+    background-color: var(--bs-ungu);
+}
+.lbs-ping {
+    background-color: var(--bs-ping);
+}
+.lbs-merah {
+    background-color: var(--bs-merah);
+}
+.lbs-oren {
+    background-color: var(--bs-oren);
+}
+.lbs-kuning {
+    background-color: var(--bs-kuning);
+}
+.lbs-hijau {
+    background-color: var(--bs-hijau);
+}
+.lbs-teal {
+    background-color: var(--bs-teal);
+}
+.lbs-cyan {
+    background-color: var(--bs-cyan);
+}
+.lbs-putih {
+    background-color: var(--bs-putih);
+}
+.lbs-hitam {
+    background-color: var(--bs-hitam);
+}
+.lbs-abu {
+    background-color: var(--bs-abu);
+}
+.slateblue {
+    background-color: var(--slateblue);
+}
+
+
+.bg2 {
+    background-color: #e9ecef;
+    padding: 5px;
+}
+.bg {
+    background-color: #f8f9fa;
+    padding: 5px;
+}
+.bg-abu {
+    background-color: #8e8e93;
+    padding: 5px;
+}
+.bg-abu-terang {
+    background-color: #ceced2;
+    padding: 5px;
+}
+
+.fbiru {
+    background-color: var(--fbiru);
+}
+.fabu {
+    background-color: var(--fabu);
+}
+.f {
+    background-color: var(--f);
+}

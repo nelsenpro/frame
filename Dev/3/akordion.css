@@ -1,0 +1,40 @@
+.accordion {
+    background-color: var(--darkblue);
+    color: var(--bs-putih);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion_active, .accordion:hover {
+    background-color: var(--gelap);
+    color: var(--bs-putih);
+}
+
+.accordion:after {
+    /*content: '\002B';*/
+    content: "+";
+    color: #fff!important;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion_active:after {
+    /*content: "\2212";*/
+    content: "-";
+}
+
+.accordionpanel {
+    padding: 0 18px;
+    background-color: var(--abu);
+    color: #000!important;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

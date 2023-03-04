@@ -1,0 +1,19 @@
+.img {
+    height:;
+    width: 100%;
+    padding: 10px;
+    border:;
+    margin-bottom: 0;
+}
+.keterang {
+    padding:;
+    text-align: center;
+    border:;
+    margin-top: 0;
+}
+@media (max-width: 600px) {
+    .img, .keterang {
+        width: 100%;
+        height:;
+    }
+}

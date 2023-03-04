@@ -1,0 +1,119 @@
+.blok {
+    background-color: #e9ecef;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    text-align: center;
+    margin: 0;
+}
+.blok-ping {
+    background-color: #e91e63;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-ping-muda {
+    background-color: #f472d0;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-merah {
+    background-color: #e51400;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-kuning {
+    background-color: #ffc40d;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-oren {
+    background-color: #e3a21a;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-hijau {
+    background-color: #00a300;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-magenta {
+    background-color: #ff0097;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-ungu {
+    background-color: #7e3878;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-teal {
+    background-color: #00aba9;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.blok-biru {
+    background-color: #2d89ef;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}

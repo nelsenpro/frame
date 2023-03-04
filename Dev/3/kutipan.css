@@ -1,0 +1,47 @@
+.kutipan {
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    width: auto;
+}
+
+.kutipan1 {
+    font: 14px/20px italic Times, serif;
+    padding: 8px;
+    background-color: #faebbc;
+    border-top: 1px solid #e1cc89;
+    border-bottom: 1px solid #e1cc89;
+    margin: 5px;
+    background-image: url();
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-indent: 23px;
+    width: auto;
+}
+.kutipan1 span {
+    display: block;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: auto;
+}
+
+.kutipan2 {
+    font: 14px/20px italic Times, serif;
+    padding-left: 70px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 10px;
+    background-color: #dadada;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    background-image: url();
+    background-position: middle left;
+    background-repeat: no-repeat;
+    text-indent: 23px;
+    width: auto;
+}

@@ -1,0 +1,101 @@
+
+.elemen-progress {
+    width: 200px;
+    margin: 0 0 10px;
+}
+
+.progress-kontainer {
+    position: relative;
+    background: #eee;
+    height: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-kontainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: var(--birudoger);
+}
+
+.elemen-progress--html .progress-kontainer::before {
+    animation: progress-html 1s ease-in forwards;
+}
+
+.elemen-progress--css .progress-kontainer::before {
+    animation: progress-css 1s ease-in forwards;
+}
+
+.elemen-progress--javascript .progress-kontainer::before {
+    animation: progress-javascript 1s ease-in forwards;
+}
+
+.label-progress {
+    position: relative;
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.label-progress::after {
+    counter-reset: num var(--num);
+    content: counter(num) "%";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.elemen-progress--html .label-progress::after {
+    animation: progress-text-html 1s ease-in forwards;
+}
+
+.elemen-progress--css .label-progress::after {
+    animation: progress-text-css 1s ease-in forwards;
+}
+
+.elemen-progress--javascript .label-progress::after {
+    animation: progress-text-javascript 1s ease-in forwards;
+}
+
+@keyframes progress-html {
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes progress-css {
+    to {
+        width: 99%;
+    }
+}
+
+@keyframes progress-javascript {
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes progress-text-html {
+    to {
+        --num: 40;
+    }
+}
+
+@keyframes progress-text-css {
+    to {
+        --num: 99;
+    }
+}
+
+@keyframes progress-text-javascript {
+    to {
+        --num: 30;
+    }
+}

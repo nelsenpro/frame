@@ -1,0 +1,51 @@
+.harga-kolom {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.harga {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.harga:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.harga .judul-harga {
+    background-color: var(--birudoger);
+    color: var(--bs-putih);
+    font-size: 25px;
+}
+
+.harga li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.harga .warna-belakang {
+    background-color: var(--abu1);
+    font-size: 20px;
+}
+
+.tmbl-harga {
+    background-color: var(--bs-hijau);
+    border: none;
+    color: var(--bs-putih);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .harga-kolom {
+        width: 100%;
+    }
+}

@@ -1,0 +1,125 @@
+/* Framecss 3.1.23 Alpha */
+@charset "UTF-8";
+@import url("html.css");
+@import url(fonts/all.min.css);
+@import url(warna.css);
+@import url(navigasi.css);
+@import url(fonts.css);
+@import url(animasi.css);
+@import url(ukuran.css);
+@import url(tabel.css);
+@import url(blok.css);
+@import url(grid.css);
+@import url(img.css);
+@import url(slideshow.css);
+@import url(tipografi.css);
+@import url(tombol.css);
+@import url(form.css);
+@import url(akordion.css);
+@import url(efek.css);
+@import url(halaman.css);
+@import url(harga.css);
+@import url(kartu.css);
+@import url(kutipan.css);
+@import url(linklis.css);
+@import url(modal.css);
+@import url(padding.css);
+@import url(progres.css);
+@import url(radius.css);
+@import url(tooltip.css);
+
+* {
+    box-sizing: border-box;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*:before,*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: times;
+    font-size: auto;
+    font-weight: auto;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+code {
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 2px;
+}
+blockquote {
+    text-align: justify;
+    background-color: var(--abu1);
+    border-radius: 4px;
+    margin-right: 25px;
+}
+cite {
+    margin-left: 15px;
+}
+audio,canvas,progress,video {
+    display: inline-block;
+}
+fieldset {
+    border-color: #17a2b8;
+    border: 1px dotted;
+    padding: 0;
+    margin: 0;
+}
+legend {
+    color: #dc3534;
+    white-space: normal;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border-top: 1px solid;
+    opacity: 0.25;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 0.5px;
+}
+iframe {
+    border: 0;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+summary {
+    display: list-item;
+    cursor: pointer;
+}
+
+progress {
+    vertical-align: baseline;
+    opacity: 0;
+}
+details > summary {
+    padding: 4px;
+    background-color: #eeeeee;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+}
+details > p {
+    background-color: #eeeeee;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}

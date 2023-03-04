@@ -1,0 +1,95 @@
+.left,
+.rt-kiri {
+    text-align: left;
+}
+.center,
+.rt-tengah {
+    text-align: center;
+}
+.right,
+.rt-kanan {
+    text-align: right;
+}
+.bawah {
+    vertical-align: bottom;
+}
+.justify,
+.kiri-kanan {
+    text-align: justify;
+}
+.b,
+.tebal {
+    font-weight: bold;
+}
+.i,
+.miring {
+    font-style: italic;
+}
+.upcase {
+    text-transform: uppercase;
+}
+.lowcase {
+    text-transform: lowercase;
+}
+.x,
+.salah {
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+}
+.u,
+.garis-bw {
+    text-decoration-line: underline;
+}
+
+/* garis luar */
+.dotted {
+    border-style: dotted;
+    border-color: red;
+}
+.dotted-hijau {
+    border-style: dotted;
+    border-color: green;
+}
+.dotted-kuning {
+    border-style: dotted;
+    border-color: yellow;
+}
+
+.dashed {
+    border-style: dashed;
+    border-color: red;
+}
+.solid {
+    border-style: solid;
+    border-color: red;
+}
+.double {
+    border-style: double;
+    border-color: red;
+}
+.groove {
+    border-style: groove;
+    border-color: red;
+}
+.ridge {
+    border-style: ridge;
+    border-color: red;
+}
+.inset {
+    border-style: inset;
+    border-color: red;
+}
+.outset {
+    border-style: outset;
+    border-color: red;
+}
+.none {
+    border-style: none;
+}
+.hidden {
+    border-style: hidden;
+}
+.mix {
+    border-style: dotted dashed solid double;
+    border-color: red;
+}

@@ -1,0 +1,99 @@
+/* efek gambar */
+
+.buram {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+}
+.buram1 {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+}
+.buram2 {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+}
+.buram3 {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+}
+.buram4 {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+}
+
+.abu {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+}
+.invert {
+  filter: invert(8);
+    -webkit-filter: invert(8); 
+    -moz-filter: invert(8);
+}
+.opacity {
+  filter: opacity(.5);
+    -webkit-filter: opacity(.5); 
+    -moz-filter: opacity(.5);
+}
+.opacity1 {
+  filter: opacity(.1);
+    -webkit-filter: opacity(.1); 
+    -moz-filter: opacity(.1);
+}
+.opacity2 {
+  filter: opacity(.2);
+    -webkit-filter: opacity(.2); 
+    -moz-filter: opacity(.2);
+}
+.opacity3 {
+  filter: opacity(.3);
+    -webkit-filter: opacity(.3); 
+    -moz-filter: opacity(.3)
+}
+.opacity4 {
+  filter: opacity(.4);
+    -webkit-filter: opacity(.4); 
+    -moz-filter: opacity(.4);
+}
+.saturate {
+   filter: saturate(10);
+    -webkit-filter: saturate(10); 
+    -moz-filter: saturate(10);
+}
+.contrast {
+   filter: contrast(4);
+    -webkit-filter: contrast(4); 
+    -moz-filter: contrast(4)
+}
+.brightness {
+   filter: brightness(2);
+    -webkit-filter: brightness(2); 
+    -moz-filter: brightness(2)
+}
+.hue-rotate {
+   filter: hue-rotate(270deg);
+    -webkit-filter: hue-rotate(270deg); 
+    -moz-filter: hue-rotate(270deg)
+}
+.shadow {
+  filter: drop-shadow(16px 16px 10px dodgerblue);
+   -webkit-filter: drop-shadow(16px 16px 10px dodgerblue);
+   -moz-filter: drop-shadow(16px 16px 10px dodgerblue);
+}
+
+
+
+
+
+

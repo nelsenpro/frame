@@ -1,0 +1,81 @@
+.frame1 {
+    display: inline-block;
+    /*margin: 0 0.5rem;*/
+
+    animation: swing;
+    /* isi nama animasi */
+    animation-duration: 8s;
+    /* durasi animasi  */
+}
+.frame1 {
+    --animate-repeat: 3;
+    /* pengulangan*/
+}
+.frame2 {
+    display: inline-block;
+    animation: zoomIn;
+    animation-duration: 8s;
+}
+.frame3 {
+    display: inline-block;
+    animation: fadeInDown;
+    animation-duration: 10s;
+}
+.frame4 {
+    display: inline-block;
+    animation: flipInY;
+    animation-duration: 6s;
+}
+
+.frame4 {
+    display: inherit;
+    animation: backInLeft;
+    animation-duration: 12s;
+}
+
+.framecss {
+    animation-duration: 9s;
+    animation-name: slidein;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+        background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+}
+
+.animasi-latar {
+    width: auto;
+    height: auto;
+    background: linear-gradient(#FC466B, #3F5EFB);
+    animation: animasi-latar 5s infinite;
+}
+
+@keyframes animasi-latar {
+    from {
+        background: linear-gradient(#acb6e5, #86fde8);
+    }
+    to {
+        background: linear-gradient(#12c2e9, #c471ed, #f64f59);
+    }
+}
+
+.body {
+    /*background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);*/
+    background-color: #EAEFF2;
+}

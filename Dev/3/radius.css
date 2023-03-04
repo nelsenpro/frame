@@ -1,0 +1,21 @@
+.r2px {
+    border-radius: 2px;
+}
+.r4px {
+    border-radius: 4px;
+}
+.r8px {
+    border-radius: 8px;
+}
+.r10px {
+    border-radius: 10px;
+}
+.r12px {
+    border-radius: 12px;
+}
+.r50 {
+    border-radius: 50%;
+}
+.r100 {
+    border-radius: 100%;
+}

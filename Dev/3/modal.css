@@ -1,0 +1,372 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+ background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: var(--white);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.modal-body {
+    padding: 2px 16px;
+    color: var(--blue);
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+
+
+.modalbiru {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modalbiru-content-biru {
+  position: relative;
+ background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closebiru {
+  color: var(--white);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closebiru:hover,
+.closebiru:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalbiru-header-biru {
+  padding: 2px 16px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.modalbiru-body-biru {
+    padding: 2px 16px;
+    color: var(--green);
+}
+
+.modalbiru-footer-biru {
+  padding: 2px 16px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+
+
+
+.modalmag {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modalmag-content-mag {
+  position: relative;
+ background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closemag {
+  color: var(--white);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closemag:hover,
+.closemag:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalmag-header-mag {
+  padding: 2px 16px;
+  background-color: var(--magenta);
+  color: var(--white);
+}
+
+.modalmag-body-mag {
+    padding: 2px 16px;
+    color: var(--orange);
+}
+
+.modalmag-footer-mag {
+  padding: 2px 16px;
+  background-color: var(--magenta);
+  color: var(--white);
+}
+
+
+
+
+
+.modaloren {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modaloren-content-oren {
+  position: relative;
+ background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closeoren {
+  color: var(--white);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeoren:hover,
+.closeoren:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modaloren-header-oren {
+  padding: 2px 16px;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.modaloren-body-oren {
+    padding: 2px 16px;
+    color: var(--red);
+}
+
+.modaloren-footer-oren {
+  padding: 2px 16px;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+
+
+.modalmerah {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modalmerah-content-merah {
+  position: relative;
+ background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closemerah {
+  color: var(--white);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closemerah:hover,
+.closemerah:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalmerah-header-merah {
+  padding: 2px 16px;
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.modalmerah-body-merah {
+    padding: 2px 16px;
+    color: var(--orange);
+}
+
+.modalmerah-footer-merah {
+  padding: 2px 16px;
+  background-color: var(--red);
+  color: var(--white);
+}
+
+

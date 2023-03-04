@@ -1,0 +1,36 @@
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+a:link {
+    /*color:;
+    background-color:;*/
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    /*color:;
+    background-color:;*/
+}
+a:Hover {
+    text-decoration: none;
+    /*color:;
+    background-color:;*/
+}
+a:active {
+    text-decoration: underline;
+    /*color:;
+    background-color:;*/
+}

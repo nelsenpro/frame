@@ -1,0 +1,113 @@
+/* memulai frames tolltip */
+.frame {
+    position: relative;
+    display: inline-table;
+    /*z-index: 3;*/
+    cursor: pointer;
+    /*border-bottom: 1px dotted red;*/
+}
+.frame:before,
+.frame:after {
+    display: inline-table;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+.aframe .teks {
+    visibility: hidden;
+    width: 120px;
+    background: linear-gradient(#009FFF, #ec2F4B);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    /*z-index: 3;*/
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+.frame:before {
+    /*background: rgba(0,0,0,.75);*/
+    background: linear-gradient(#FC466B, #3F5EFB);
+    border-radius: 2px;
+    color: #fff;
+    content: attr(judul);
+    font-size: 14px;
+    padding: 6px 10px;
+    top: 26px;
+    white-space: nowrap;
+}
+.aframe .teks:after {
+    cursor: pointer;
+    /*z-index: 3;*/
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.frame:after {
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid rgba(0,0,0,.75);
+    border-left: 6px solid transparent;
+    content: '';
+    height: 0;
+    top: 20px;
+    left: 20px;
+    width: 0;
+}
+.aframe:hover .teks {
+    visibility: visible;
+}
+
+/* animasi frame*/
+/* fade */
+.frame.fade:after,
+.frame.fade:before {
+    transform: translate3d(0,-500px,0);
+    transition: all .15s ease-in-out;
+}
+.frame.fade:hover:after,
+.frame.fade:hover:before {
+    opacity: 1;
+    transform: translate3d(0,10px,0);
+}
+
+/* expand */
+.frame.expand:before {
+    transform: scale3d(.2,.2,1);
+    transition: all .2s ease-in-out;
+}
+.frame.expand:after {
+    transform: translate3d(0,6px,0);
+    transition: all .1s ease-in-out;
+}
+.frame.expand:hover:before,
+.frame.expand:hover:after {
+    opacity: 1;
+    transform: scale3d(1,1,1);
+}
+.frame.expand:hover:after {
+    transition: all .2s .1s ease-in-out;
+}
+
+/* swing */
+.frame.swing:before,
+.frame.swing:after {
+    transform: translate3d(0,30px,0) rotate3d(0,0,1,60deg);
+    transform-origin: 0 0;
+    transition: transform .15s ease-in-out, opacity .2s;
+}
+.frame.swing:after {
+    transform: translate3d(0,300px,0);
+    transition: transform .15s ease-in-out, opacity .2s;
+}
+.frame.swing:hover:before,
+.frame.swing:hover:after {
+    opacity: 1;
+    transform: translate3d(0,0,0) rotate3d(1,1,1,0deg);
+}

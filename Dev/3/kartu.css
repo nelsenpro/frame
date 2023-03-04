@@ -1,0 +1,54 @@
+.kartu-grid3-kolom {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .kartu-grid3-kolom {
+        width: 100%;
+        display: block;
+    }
+}
+
+.kartu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kontainer-kartu {
+    padding: 0 16px;
+}
+
+.kontainer-kartu::after, .kartu-grid3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nama-kartu {
+    color: var(--bs-biru);
+}
+
+.tmbl-kartu {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: var(--bs-hijau);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tmbl-kartu:hover {
+    background-color: var(--bs-biru);
+}
+.loading {
+    background-color: rgb(4,170,109);
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+}

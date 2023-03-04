@@ -1,0 +1,16 @@
+.halaman a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.halaman a.active {
+    background-color: dodgerblue;
+    color: #fff!important;
+}
+
+.halaman a:hover:not(.active) {
+    background-color: #eee;
+}

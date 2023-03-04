@@ -1,0 +1,129 @@
+.grid4col {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.f-grid4col {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    align-content: center;
+    border: 1px solid cyan;
+}
+@media screen and (max-width: 800px) {
+    .f-grid4col {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .f-grid4col {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+.grid3col {
+    max-width: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+
+}
+.f-grid3col {
+    padding: 20px;
+    height: auto;
+    width: auto;
+    border: 1px solid magenta;
+}
+@media (min-width: 500px) {
+    .grid3col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .grid3col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.grid2col {
+    max-width: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+
+}
+.f-grid2col {
+    padding: 20px;
+    height: auto;
+    width: auto;
+    border: 1px solid green;
+    /* border-radius: 12px;*/
+}
+@media (min-width: 500px) {
+    .grid2col {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .grid2col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.grid1col {
+    display: grid;
+    grid-template-columns: auto;
+    display: grid;
+    background-color:;
+    padding: 10px;
+}
+.f-grid1col {
+    background-color:;
+    border: 1px solid red;
+    padding: 20px;
+    font-size:;
+    text-align:;
+}
+.foto-grid4col {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.ft-grid4col-items {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    border: 1px solid orange;
+}
+
+.ket {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid orange;
+}
+.ft-grid4col-items img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .ft-grid4col-items {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ft-grid4col-items {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
