@@ -15,9 +15,9 @@
 ## Status
 | Nama | Deskripsi |
 | --- | --- |
-| Versi | 1.1.23; 2.1.23; 3.1.23|
+| Versi | 3|
 | Lisensi | GNU GPL 3 |
-| --- | --- |
+
 
 ## Mulai
 ```txt
@@ -28,7 +28,7 @@
 
 ## Join
 
-[Discord](#) | [WhatsApp Grup](#)
+[Discord](#) | [WhatsApp Grup](https://chat.whatsapp.com/G3340KQHfs7DNLbFvHDXGd)
 
 
 ## Creator
