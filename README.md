@@ -30,7 +30,7 @@
 
 ## Join
 
-[Discord](#) | [WhatsApp Grup](https://chat.whatsapp.com/G3340KQHfs7DNLbFvHDXGd)
+[Discord](https://discord.gg/Q7pnS6r4) | [WhatsApp Grup](https://chat.whatsapp.com/G3340KQHfs7DNLbFvHDXGd)
 
 ## Creator
 
