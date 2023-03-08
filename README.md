@@ -1,1 +1,1 @@
-<iframe class="" src="" frameborder="0" width="100%" height="100%"></iframe>
+<iframe src="" frameborder="0" width="560" height="315 allowfullscreen></iframe>
