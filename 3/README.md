@@ -24,7 +24,7 @@ npm i framecss3
 ## CDN - new update
 ```html
 <!--CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
 <!--JS -->
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
 ```
@@ -32,22 +32,22 @@ npm i framecss3
 ## Deskripsi
 | Nama | Deskripsi |
 | --- | --- |
-| Versi Alpha | 1.1.23; 2.1.23; 3.1.23|
+| Versi | 3|
 | Lisensi | GNU GPL 3 |
 # Dokumentasi
 ## Struktur Framecss
 ```text
 framecss/
 |── data/
-  ├── animate.css
+  ├
   |
   ├── fonts/all.min.css
   │
   │
   ├── f.min.css
   ├── f.min.js
-  |
-  └── normalize.css
+
+
 
 ```
 ## Template Cepat ::Framecss
