@@ -19,7 +19,7 @@
 | Lisensi | GNU GPL 3 |
 
 ## Mulai
-```txt
+```html
 <!--CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
 <!--JS -->
