@@ -28,9 +28,10 @@
 
 [Tutorial Lainnya](https://github.com/nelsenpro/frame/blob/main/3/README.md)
 
-## Join
-
-[Discord](https://discord.gg/Q7pnS6r4) | [WhatsApp Grup](https://chat.whatsapp.com/G3340KQHfs7DNLbFvHDXGd)
+## Join :: Dev+ Github Tokens
+```txt
+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
+```
 
 ## Creator
 
