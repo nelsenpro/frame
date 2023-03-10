@@ -249,6 +249,20 @@ framecss/
     </div>
 </div>
 ```
+**Dasar 2**
+```html
+<div class="header">
+    <div class="blok">
+        <h1 class="">Header</h1>
+    </div>
+</div>
+
+<div class="header putih">
+    <div class="blok-merah">
+        <h1 class="">Header</h1>
+    </div>
+</div>
+```
 ### Header Navigasi
 ```html
 <div class="nav" id="nav">
@@ -318,11 +332,26 @@ framecss/
 </div>
 ```
 ### Footer
+**Dasar 1**
 ```html
 <div class="footer">
     <div class="footer-content">
         <!-- kode konten kamu -->
     </div>
+</div>
+```
+**Dasar 2**
+```html
+<div class="footer">
+    <p class="blok">
+        Footer
+    </p>
+</div>
+
+<div class="footer putih">
+    <p class="blok-magenta">
+        Footer
+    </p>
 </div>
 ```
 ## Membangun Tombol
