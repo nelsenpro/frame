@@ -1,6 +1,7 @@
 [<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2SkG2t8NshC_wKAJhPhixCLtsYfzlLCBxRrMXfPXUNq8iLBtHzHFmkyQ36SedZw5CpGEIdFk0hfD1D8OykxFcqSueHpGuOQFwhaiX51P_0Tg670-0afL0-JmxDKcMCkSVF3LvNb_s92G3KAzexnFbsBT2vUqWo2Of5WL5VI6CqHFVor-zIE6yqatoSw/s4096/Framecss-banner.jpg" width=40% align=center>](https://github.com/nelsenpro/frame)
 # Framecss - Framework CSS
-Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web
+**CSS Framework Indonesia**
+Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web Responsible 
 ## Daftar isi :
 - [Persiapan](#install)
 - [Dokumentasi](#dokumentasi)
@@ -107,23 +108,16 @@ framecss/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
-    <!--JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
+    <!--JS -->
     <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
-    <!--
-            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
-            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
-            -->
     <title>grid1</title>
 </head>
-<body>
-    <style type="text/css" media="all">
-        * {
-            color: var(--white);
-        }
-    </style>
-    <div class="header lbs-indigo">
-        header
+<body class="putih">
+    <div class="header blok-biru">
+        <div class="header-content">
+            <h2 class="">Header</h2>
+        </div>
     </div>
     <div class="framecss-grid1">
         <div class="konten bg-hijau">
@@ -146,7 +140,9 @@ framecss/
         </div>
     </div>
     <div class="footer lbs-cyan">
-        footer
+        <div class="footer-content">
+           <p>footer-content</p>
+        </div>
     </div>
 </body>
 </html>
@@ -160,31 +156,29 @@ framecss/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
-    <!--JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
-    <!--
-            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
-            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
-            -->
     <title>grid2</title>
 </head>
-<body>
+<body class="putih">
+    <div class="header bg-magenta">
+        <div class="header-content">
+            <h1 class="">Grid 2</h1>
+        </div>
+    </div>
     <div class="framecss-grid2">
-        <div class="header lbs-kuning putih">
-            <h2>header</h2>
+        <div class="konten-kiri bg-kuning">
+            konten Kiri
         </div>
-
-        <div class="konten-kiri lbs-ungu putih">
-            konten Kiri, teks putih
+        <div class="konten-tengah bg-biru">
+            konten tengah
         </div>
-        <div class="konten-tengah bg-hijau putih">
-            konten Tengah, teks putih
-        </div>
-
-        <div class="footer bg-merah putih">
+    </div>
+    <div class="footer bg-hijau">
+        <div class="footer-content">
             <p>
-                Kaki
+                footer
             </p>
         </div>
     </div>
@@ -200,32 +194,30 @@ framecss/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
-    <!--JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
+    <!--JS -->
     <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
-    <!--
-            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
-            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
-            -->
     <title>grid3</title>
 </head>
-<body>
-    <div class="framecss-grid3">
-        <div class="header">
+<body class="putih">
+    <div class="header lbs-merah">
+        <div class="header-content">
             <h2>header</h2>
         </div>
-
-        <div class="konten-kiri">
+    </div>
+    <div class="framecss-grid3">
+        <div class="konten-kiri lbs-hijau">
             konten Kiri
         </div>
-        <div class="konten-tengah">
+        <div class="konten-tengah bg-magenta">
             konten Tengah
         </div>
-        <div class="konten-kanan">
+        <div class="konten-kanan bg-biru">
             konten kanan
         </div>
-
-        <div class="footer">
+    </div>
+    <div class="footer bg-ungu">
+        <div class="footer-content">
             <p>
                 footer
             </p>
@@ -235,6 +227,14 @@ framecss/
 </html>
 ```
 ## Membangun Header
+**Dasar**
+```html
+<div class="header">
+    <div class="header-content">
+        <!-- kode konten kamu -->
+    </div>
+</div>
+```
 ### Header Navigasi
 ```html
 <div class="nav" id="nav">
@@ -267,10 +267,12 @@ framecss/
 ### Panel Default
 ```html
 <div class="header">
-    <h1 class="hitam">Selamat Datang di Framecss Indonesia</h1>
-    <small class="hitam">
-        versi <i>3.1.23</i> <b>::</b>
-    </small>
+    <div class="header-content">
+        <h1 class="">Selamat Datang di Framecss Indonesia</h1>
+        <small class="">
+            versi <i>3.1.23</i> <b>::</b>
+        </small>
+    </div>
 </div>
 ```
 ### Panel modifikasi Latar
@@ -301,6 +303,14 @@ framecss/
     </a>
 </div>
 ```
+### Footer
+```html
+<div class="footer">
+    <div class="footer-content">
+        <!-- kode konten kamu -->
+    </div>
+</div>
+```
 ## Membangun Tombol
 ### tombol default
 ```html
@@ -312,6 +322,13 @@ framecss/
 <button class="tombol-kuning r12px" type="submit">Tombol</button>
 <button class="tombol-ping r8px bayang" type="submit">Tombol</button>
 <button class="tombol-magenta u25px bayang-hijau" type="submit">Tombol</button>
+```
+### 'btn' atau 'btn success', 'btn danger', 'btn info'
+```html
+<button class="btn" type="submit">Tombol</button>
+```
+```html
+<button class="btn danger" type="submit">Tombol</button>
 ```
 ### tombol grup : Float pakai section, grid pakai div
 ```html
@@ -373,6 +390,23 @@ framecss/
         <td>magenta</td>
     </tr>
 </table>
+```
+## Background Colors :: Warna Latar Belakang
+### pakai 'bg-NamaWarna' dan 'lbs-NamaWarna'
+```html
+<body class="bg-merah"> ;
+<h1 class="bg-merah"></h1>;
+atau
+<body class="lbs-merah"> ;
+<h1 class="lbs-merah"></h1>;
+```
+### Background Colors Linear Gradient 
+```html
+<body class="sublime-light"> ;
+<h1 class="amin"></h1>;
+atau warna yang lain....
+<body class="megatron"> ;
+<h1 class="lawrencium"></h1>;
 ```
 ## [Lanjutkan Dokumentasi atau Tutorial](https://github.com/nelsenpro/frame/blob/main/3/docs/docs.md)
 
