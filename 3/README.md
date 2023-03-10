@@ -1,8 +1,6 @@
 [<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2SkG2t8NshC_wKAJhPhixCLtsYfzlLCBxRrMXfPXUNq8iLBtHzHFmkyQ36SedZw5CpGEIdFk0hfD1D8OykxFcqSueHpGuOQFwhaiX51P_0Tg670-0afL0-JmxDKcMCkSVF3LvNb_s92G3KAzexnFbsBT2vUqWo2Of5WL5VI6CqHFVor-zIE6yqatoSw/s4096/Framecss-banner.jpg" width=40% align=center>](https://github.com/nelsenpro/frame)
 # Framecss - Framework CSS
-
-<b>CSS Framework Indonesia</b>
-
+**CSS Framework Indonesia**
 Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web Responsible 
 ## Daftar isi :
 - [Persiapan](#install)
@@ -31,7 +29,25 @@ npm i framecss3
 <!--JS -->
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
 ```
-
+## Starter Template
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
+    <!--JS -->
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+```
 ## Deskripsi
 | Nama | Deskripsi |
 | --- | --- |
@@ -42,16 +58,12 @@ npm i framecss3
 ```text
 framecss/
 |── data/
-  ├
   |
   ├── fonts/all.min.css
-  │
-  │
   ├── f.min.css
   ├── f.min.js
-
 ```
-## Template Cepat ::Framecss
+## Layout dan Template Cepat ::Framecss
 ### Float Layout
 ```html
 <!DOCTYPE html>
