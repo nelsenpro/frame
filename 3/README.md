@@ -47,8 +47,6 @@ framecss/
   ├── f.min.css
   ├── f.min.js
 
-
-
 ```
 ## Template Cepat ::Framecss
 ### Float Layout
@@ -59,58 +57,43 @@ framecss/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.css" type="text/css" media="all" />
-    <!--JS-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
-    <!---
-            <link rel="stylesheet" href="data/f.min.css" type="text/css" media="all" />
-            <script src="data/f.min.js" type="text/javascript" charset="utf-8"></script>
-        -->
+
     <title>Framecss 3</title>
 </head>
-<body>
-    <style type="text/css" media="all">
-:root {
-        --magenta: #d80073;
-    }
-        * {
-            color: var(--white);
-        }
-        .bg-magenta {
-            background-color: var(--magenta);
-        }
-    </style>
-    <div class="header bg-merah">
-        <h1 class="">Halo Dunia</h1>
-        <p>
-            Framecss 3.1.23
-        </p>
+<body class="putih">
+    <!--- awal blok atau header -->
+    <div class="header">
+        <div class="header-content bg-biru">
+            <h1 class="">Halo Dunia</h1>
+            <p>
+                Framecss 3.1.23
+            </p>
+        </div>
     </div>
-    <!-- akhir blok, jumbotron-->
-
-    <!-- isi konten 1-->
+    <!-- akhir blok atau header -->
     <div class="baris">
+        <!-- isi konten 1 -->
         <div class="utama samping bg-kuning">
-            <h2 class="">Konten 1 lebar 30%</h2>
+            <h2 class="">Konten 1</h2>
         </div>
-        <!-- akhir konten 1-->
-
-        <!-- isi konten 2-->
+        <!-- akhir konten 1 -->
+        <!-- isi konten 2 -->
         <div class="utama tengah bg-magenta">
-            <h2 class="">Konten 2 lebar 65%, kamu dapat menggunakan grid 2 untuk lebar 100%</h2>
+            <h2 class="">Konten 2</h2>
         </div>
-        <!-- akhir konten 2-->
-
-        <!-- awal footer-->
+        <!-- akhir konten 2 -->
     </div>
+    <!-- awal footer -->
     <div class="footer bg-hijau">
-        <p class="">
+        <p class="footer-content">
             Footer
         </p>
     </div>
-    <!-- akhir footer-->
-
+    <!-- akhir footer -->
 </body>
 </html>
 ```
