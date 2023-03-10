@@ -26,7 +26,25 @@
 <!--JS -->
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
 ```
-
+## Starter Template
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f(1).min.css" type="text/css" media="all" />
+    <!--JS -->
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/3/data/f.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
+```
 [Tutorial Lainnya](https://github.com/nelsenpro/frame/blob/main/3/README.md)
 
 ## Join :: Dev+ Github Tokens
